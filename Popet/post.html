@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="author" content="Brain Group">
+	<meta name="description" content="">
+	<link rel="icon" href="images/LOGO POPET VERSION 2.png">
+
+	<title>Blog - Popet</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar-fixed-side.css"  />
+	<link rel="stylesheet" type="text/css" href="css/post.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+  		<div class="row">
+    		<div class="col-sm-4 col-lg-3">
+		      <nav class="navbar navbar-default navbar-fixed-side">
+		        	<div class="container">
+ <div class="navbar-header">
+	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+	                 <span class="sr-only" id="toggle">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+
+		           	<div  class="navbar-brand ">
+	                    <a href="index.html"><img class="img-responsive center-block" src="images/Logo Popet White.svg" alt="POPET"></a>     
+	                </div>
+	            </div>
+				<nav class="collapse navbar-collapse" role="navigation" >
+					<ul class=" nav navbar-nav navbar-right"> 
+						<li>
+    						<div class="search">
+        						<form action="search" class="search-form">
+					                <div class="form-group has-feedback">
+					            		<label for="search" class="sr-only">Search</label>
+					            		<input type="text" class="form-control" name="search" id="search" placeholder="¿Qué estás buscando?">
+					              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+					            	</div>
+        						</form>
+   							</div>
+			  			</li>
+						<li class="center-block">
+							<a href="popet.html"> 
+								<ul class="center-block text-center list-inline">
+									<li>
+										<img src="images/Popet White.svg" alt="¿Qué es popet?" height="30">
+									</li>
+									<li>
+										<p>¿Qué es Popet?</p>
+									</li>
+								</ul>
+							</a>
+						</li>
+						<li>
+							<a href="veterinary.html"> 
+								<ul class="center-block text-center list-inline">
+									<li>
+										<img class="center-block" src="images/Veterinary White.svg" alt="Veterinarias" height="30">
+									</li>
+									<li>
+										<p>Veterinarias</p>
+									</li>
+								</ul>
+								
+							</a>
+						</li>
+						<li>
+							<a href="commerce.html" >
+								<ul class="center-block text-center list-inline">
+									<li>
+										<img class="center-block" src="images/Commerce White.svg" alt="Comercios" height="30">
+
+									</li>
+									<li>
+										<p>Comercio</p>
+									</li>
+								</ul>
+							</a>
+						</li>
+						<li>
+							<a href="contact.html"> 
+								<ul class="center-block text-center list-inline">
+									<li>
+										<img class="center-block" src="images/Contact White.svg" alt="Contacto" height="30">
+
+									</li>
+									<li>
+										<p>Contacto</p>
+									</li>
+								</ul>
+								
+							</a>
+						</li>
+						<li>
+							<div class="login">
+								<form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+									<div class="form-group">
+										 <label class="sr-only" for="Company">Usuario</label>
+										 <input type="text" class="form-control" id="Company" placeholder="Usuario" required>
+									</div>
+									<div class="form-group">
+										 <label class="sr-only" for="User">Contraseña</label>
+										 <input type="password" class="form-control" id="User" placeholder="Contraseña" required>
+									</div>
+									<div class="form-group">
+										 <button type="submit" class="btn btn-primary btn-block" id="login">Iniciar sesión</button>
+									</div>
+							 </form>
+							<div class="social-buttons">
+								
+								<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+								<a href="#" class="btn btn-tw"><i class="fa fa-google"></i> Google</a>
+												
+							</div>
+							<div class="bottom text-center">
+								¡Nuevo aquí? <a href="contact.html"><b>Registrate</b></a>
+							</div>
+							</div>
+						</li>		
+					</ul>
+				</nav>
+			</div>
+		      </nav>
+    		</div>
+		    <div class="col-sm-8 col-lg-9">
+		    	<body>
+			     	<section>
+			     		<div class="container-fluid row">
+			     			<div class="col-md-8">
+			     				<h1>¿Cómo Enseñar a tu perro a volver a casa?</h1>
+			     				<ul class="list-inline">
+		     						<li>
+		     							<i class="fa fa-calendar" aria-hidden="true" id="publication-date"> <span class="date">28/01/2017</span>  <span class="hour">04:32</span></i>
+		     							
+		     						</li>
+		     						<li>
+		     							<i class="fa fa-calendar" aria-hidden="true" id="publication-author"> <a href="">Username author</a> </i>
+		     							
+		     						</li>
+		     					</ul>
+		     					<div class="post">
+		     						<div class="fill" id="post-fill-1"></div>
+		     						<div class="thumbnail-caption">
+		     							<p>
+		     								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse urna libero, iaculis et erat id, volutpat efficitur est. Etiam gravida imperdiet consequat. Nulla facilisi. Duis consectetur nisl eget sagittis fermentum. Nunc rhoncus ipsum in nisl vestibulum, sit amet fermentum tortor tempor. Morbi mi lacus, congue id maximus sed, iaculis non mauris. Quisque nec feugiat dui. Pellentesque imperdiet, sapien sed facilisis malesuada, velit neque luctus enim, sed vehicula metus sem non nulla. In hac habitasse platea dictumst. Ut vitae egestas mauris. Curabitur vitae dolor ac velit tempus molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus feugiat velit ut nisl imperdiet dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+		     								<br>
+
+		     								<div class="fill" id="post-fill-2"></div>
+
+		     								<br>
+											Donec vehicula imperdiet est. Etiam enim turpis, volutpat vitae ex sed, dictum hendrerit quam. Sed at euismod magna. Donec vitae elit orci. Aliquam at hendrerit lorem. Proin ut gravida nunc, ac convallis sem. Nunc varius velit orci, at commodo tortor volutpat at. Ut at nisl orci. Cras scelerisque lorem a rutrum pulvinar. Cras ac nulla in odio interdum condimentum. In quis turpis lectus.
+											<br>
+											<br>
+											Aenean vitae tempor eros. Praesent ligula ipsum, hendrerit vel odio nec, mollis accumsan arcu. Aliquam interdum dolor ut ex dictum, ut tincidunt elit molestie. Aliquam ultrices tempus nibh. In id feugiat dolor. Proin ultrices et mauris eget viverra. Mauris sagittis pharetra ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											<br>
+											<br>
+
+											Vivamus viverra elementum tellus, eu dictum ligula sodales sit amet. Donec felis elit, ullamcorper sed dolor a, pretium tempus libero. Sed facilisis scelerisque nibh vitae laoreet. Vivamus euismod, risus nec tristique gravida, lorem lacus posuere mauris, vitae faucibus nunc massa ut quam. Praesent sit amet fermentum turpis. Fusce suscipit molestie posuere. Donec ligula augue, fermentum eget luctus et, fringilla vel neque. Duis nec sem id nisi faucibus tincidunt. Duis tincidunt orci nec lectus commodo, ac gravida ex suscipit. Curabitur pellentesque, diam quis finibus euismod, eros nibh interdum nulla, quis pharetra orci enim eu nisl. Morbi elementum vestibulum libero vitae fermentum. Etiam molestie laoreet tortor, consequat ultricies nibh viverra eget. Nullam nec varius quam.
+		     							</p>
+		     						</div>
+		     					</div>
+		     					<div class="share">
+		     						<p>Comparte en: </p>
+		     						<ul class="center-block text-center list-inline share-icons">
+		     							<li>
+		     								<a href="" class="fa fa-facebook"></a>
+		     							</li>
+		     							<li>
+		     								<a href="" class="fa fa-twitter"></a>
+		     							</li>
+		     							<li>
+		     								<a href="" class="fa fa-google-plus"></a>
+		     							</li>
+		     							<li>
+		     								<a href="" class="fa fa-pinterest"></a>
+		     							</li>
+		     							<li>
+		     								<a href="" class="fa fa-tumblr"></a>
+		     							</li>
+		     							<li>
+		     								<a href="" class="fa fa-linkedin"></a>
+		     							</li>
+		     						</ul>
+		     					</div>
+		     					<div class="row related">
+		     						<h3 class="text-center">Quiza te interese</h3>
+		     						<div class="col-md-4">
+		     							<div class="thumbnail">
+		     								<div class="fill" id="post-fill-4"></div>
+		     								<div class="thumbnail-caption">
+		     									<a>
+		     										¿Cómo rehabilitar a un perro agresivo?
+		     									</a>
+		     								</div>
+		     							</div>
+		     						</div>
+		     						<div class="col-md-4">
+		     							<div class="thumbnail">
+		     								<div class="fill" id="post-fill-3"></div>
+		     								<div class="thumbnail-caption">
+		     									<a>
+		     										Top 5 de las razas que más duermen
+		     									</a>
+		     								</div>
+		     							</div>
+		     						</div>
+		     						<div class="col-md-4">
+		     							<div class="thumbnail">
+		     								<div class="fill" id="post-fill-2"></div>
+		     								<div class="thumbnail-caption">
+		     									<a>
+		     										10 Cosas que deberías hacer si amas a tu máscota
+		     									</a>
+		     								</div>
+		     							</div>
+		     						</div>	
+		     					</div>
+								<div class="form-group">
+									<label for="usr">Name:</label>
+									<input type="text" class="form-control" id="usr">
+								</div>
+								<div class="form-group">
+								  	<label for="comment">Comment:</label>
+								  	<textarea class="form-control" rows="5" id="comment"></textarea>
+								</div>
+			     			</div>
+<div class="col-md-4" id="outstanding">
+			     				<section class="row">
+			     					<p class="section-name">Temas de Interés</p>
+			     					<div class="tags center-block text-center">
+			     						<a href="" class="btn btn-default">Adistramiento</a>  <a href="" class="btn btn-default">Belleza</a>  <a href="" class="btn btn-default">Cuidado</a>  <a href="" class="btn btn-default">Consejos</a>  <a href="" class="btn btn-default">Curiosidades</a>
+			     					</div>
+			     				</section>
+			     				<hr>
+			     				<section class="row" >
+			     					<p class="section-name">Publicaciones populares</p>
+			     					<div class="col-md-12" id="popular">
+				     					<div class="row" id="popular-1">
+					     					<div class="col-md-4">
+					     						<div class="fill" id="fill-popular-1"></div>
+					     					</div>
+					     					<div class="col-md-8">
+					     						<a class="popular-name">¿Cómo enseñar a un perro a volver a casa?</a>
+					     					</div>
+				     					</div>
+				     					<div class="row" id="popular-2">
+					     					<div class="col-md-4">
+					     						<div class="fill" id="fill-popular-2"></div>
+					     					</div>
+					     					<div class="col-md-8">
+					     						<a class="popular-name">10 cosas que debes hacer si amas a tu mascota</a>
+					     					</div>
+				     					</div>
+			     					</div>		     					
+			     				</section>
+			     				<hr>
+			     				<section class="row latest">
+			     					<p class="section-name">Ultimos articulos</p>
+				     				<div class="row" id="notice-1">
+				     					<div class="col-md-12">
+				     						<div class="thumbnail">
+				     							<div class="fill"></div>
+				     							<div class="thumbnail-caption">
+				     								<p class="text-center article-title">¿Cómo elegir la mascota adecuada para ti?</p>
+				     								<p class="article-content">
+				     								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget tempor est. Sed dapibus diam nec magna porta, non porttitor est sagittis. Nam sit amet nisl euismod ipsum dignissim sollicitudin.	
+				     								</p>
+				     							</div>
+				     						</div>
+				     					</div>
+				     				</div>
+				     				<div class="row" id="notice-2">
+				     					<div class="col-md-12">
+				     						<div class="thumbnail">
+				     							<div class="fill"></div>
+				     							<div class="thumbnail-caption">
+				     								<p class="text-center article-title">¿Cuales son las mejores veterinarias?</p>
+				     								<p class="article-content">
+				     								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget tempor est. Sed dapibus diam nec magna porta, non porttitor est sagittis. Nam sit amet nisl euismod ipsum dignissim sollicitudin.	
+				     								</p>
+				     							</div>
+				     						</div>
+				     					</div>
+				     				</div>
+			     				</section>
+			     				<hr>
+			     				<div class="calendar">
+									<div class="month">
+									  <ul>
+									    <li class="prev">&#10094;</li>
+									    <li class="next">&#10095;</li>
+									    <li>
+									      August<br>
+									      <span style="font-size:18px">2017</span>
+									    </li>
+									  </ul>
+									</div>
+
+									<ul class="weekdays">
+									  	<li>Lu</li>
+									  	<li>Ma</li>
+									  	<li>Mi</li>
+									  	<li>Ju</li>
+									  	<li>Vi</li>
+									  	<li>Sa</li>
+									  	<li>Do</li>
+									</ul>
+
+									<ul class="days">  
+									  	<li>1</li>
+									  	<li>2</li>
+									  	<li>3</li>
+									  	<li>4</li>
+									  	<li>5</li>
+									  	<li>6</li>
+									  	<li>7</li>
+									  	<li>8</li>
+									  	<li>9</li>
+									  	<li><span class="active">10</span></li>
+									  	<li>11</li>
+									  	<li>12</li>
+									  	<li>13</li>
+									  	<li>14</li>
+									  	<li>15</li>
+									  	<li>16</li>
+									  	<li>17</li>
+									  	<li>18</li>
+									  	<li>19</li>
+									  	<li>20</li>
+									  	<li>21</li>
+									  	<li>22</li>
+									  	<li>23</li>
+									  	<li>24</li>
+									  	<li>25</li>
+									  	<li>26</li>
+									  	<li>27</li>
+									  	<li>28</li>
+									  	<li>29</li>
+									  	<li>30</li>
+									  	<li>31</li>
+									</ul>
+								
+								</div>
+								<div class="agenda">
+							        <div class="table-responsive">
+							            <table class="table table-condensed table-bordered">
+							                <thead>
+							                    <tr>
+							                        <th>Date</th>
+							                        <th>Time</th>
+							                        <th>Event</th>
+							                    </tr>
+							                </thead>
+							                <tbody>
+							                    <!-- Single event in a single day -->
+							                    <tr>
+							                        <td class="agenda-date" class="active" rowspan="1">
+							                            <div class="dayofmonth">26</div>
+							                            <div class="dayofweek">Saturday</div>
+							                            <div class="shortdate text-muted">July, 2014</div>
+							                        </td>
+							                        <td class="agenda-time">
+							                            5:30 AM
+							                        </td>
+							                        <td class="agenda-events">
+							                            <div class="agenda-event">
+							                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+							                                Fishing
+							                            </div>
+							                        </td>
+							                    </tr>
+							                    
+							                    <!-- Multiple events in a single day (note the rowspan) -->
+							                    <tr>
+							                        <td class="agenda-date" class="active" rowspan="3">
+							                            <div class="dayofmonth">24</div>
+							                            <div class="dayofweek">Thursday</div>
+							                            <div class="shortdate text-muted">July, 2014</div>
+							                        </td>
+							                        <td class="agenda-time">
+							                            8:00 - 9:00 AM 
+							                        </td>
+							                        <td class="agenda-events">
+							                            <div class="agenda-event">
+							                                Doctor's Appointment
+							                            </div>
+							                        </td>
+							                    </tr>
+							                    <tr>
+							                        <td class="agenda-time">
+							                            10:15 AM - 12:00 PM 
+							                        </td>
+							                        <td class="agenda-events">
+							                            <div class="agenda-event">
+							                                Meeting with executives
+							                            </div>
+							                        </td>
+							                    </tr>
+							                    <tr>
+							                        <td class="agenda-time">
+							                            7:00 - 9:00 PM
+							                        </td>
+							                        <td class="agenda-events">
+							                            <div class="agenda-event">
+							                                Aria's dance recital
+							                            </div>
+							                        </td>
+							                    </tr>
+							                </tbody>
+							            </table>
+							        </div>
+							    </div>
+			     				<section class="row" id="social">
+			     					<div class="col-md-12">
+			     					</div>
+			     				</section>
+			     				
+			     			</div>
+			     		</div>
+			     	</section>
+			     	<footer class="footer">
+						<div class="row">
+					      	<p class="col-sm-4">&copy; 2017 POPET-Todos Los Derechos Reservados</p>
+					      	<ul class="col-sm-8">
+					        	<li><a href="contact.html" id="contact"> CONTACTO </a></li>
+								<li><a href="#"> HOME <span class="glyphicon glyphicon-hand-up"></span> </a></li>
+
+					      	</ul>
+					    </div>
+			     	</footer>
+		    	</body>
+		     	
+		    </div>
+  		</div>
+	</div>
+
+</body>
+</html>

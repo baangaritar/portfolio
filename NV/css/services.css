@@ -1,0 +1,233 @@
+@font-face { font-family: 'Lato-Black'; src: url('../fonts/Lato-Black.ttf'); }
+@font-face { font-family: 'Lato-Bold'; src: url('../fonts/Lato-Bold.ttf'); } 
+@font-face { font-family: 'Lato-BlackItalic' ; src: url('../fonts/Lato-BlackItalic.ttf');}
+@font-face { font-family: 'Lato-Hairline' ; src: url('../fonts/Lato-Hairline.ttf');}
+@font-face { font-family: 'Lato-HairlineItalic' ; src: url('../fonts/Lato-HairlineItalic.ttf');}
+@font-face { font-family: 'Lato-Heavy' ; src: url('../fonts/Lato-Heavy.ttf');}
+@font-face { font-family: 'Lato-HeavyItalic' ; src: url('../fonts/Lato-HeavyItalic.ttf');}
+@font-face { font-family: 'Lato-Italic' ; src: url('../fonts/Lato-Italic.ttf');}
+@font-face { font-family: 'Lato-Light' ; src: url('../fonts/Lato-Light.ttf');}
+@font-face { font-family: 'Lato-LightItalic' ; src: url('../fonts/Lato-LightItalic.ttf');}
+@font-face { font-family: 'Lato-Medium' ; src: url('../fonts/Lato-Medium.ttf');}
+@font-face { font-family: 'Lato-MediumItalic' ; src: url('../fonts/Lato-MediumItalic.ttf');}
+@font-face { font-family: 'Lato-Regular' ; src: url('../fonts/Lato-Regular.ttf');}
+@font-face { font-family: 'Lato-Semibold' ; src: url('../fonts/Lato-Semibold.ttf');}
+@font-face { font-family: 'Lato-SemiboldItalic' ; src: url('../fonts/Lato-SemiboldItalic.ttf');}
+@font-face { font-family: 'Lato-Thin' ; src: url('../fonts/Lato-Thin.ttf');}
+@font-face { font-family: 'Lato-ThinItalic' ; src: url('../fonts/Lato-ThinItalic.ttf');}
+
+html, body{
+	height: 90%;
+	background-color:  #F5F1DE;
+}
+
+.navbar-default{
+
+	height: 7rem;
+	margin-top: 2rem;
+	background-color: rgba(0, 0, 0, 0);
+	border-style: none !important;
+}
+
+.navbar-right{
+	border-bottom: 1px solid rgba(190, 140, 41, 1);
+	border-radius: 2rem;
+
+}
+
+.navbar-nav li a{
+	text-align: center;
+	line-height: 4rem;
+	border-radius: 2rem;
+	font-family: 'Lato-Semibold';
+	font-size: 2rem;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background: rgba(190, 140, 41, 1);
+	color: white;
+}
+
+.navbar-brand .fill{
+	max-width: 12rem;
+	margin-top: -2.5rem;
+	margin-left: 5rem;
+}
+
+section .row{
+	margin-top: 6rem;
+}
+
+section .thumbnail{
+	background: none;
+	border-style: none;
+}
+
+section .fill{
+	height: 25rem;
+	width: 25rem;
+	border-radius: 25%;
+	background: grey;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center center;
+	background-size: cover;
+}
+
+section .thumbnail #image1{
+	background-image: url(../images/veterinaria.jpg);
+}
+
+section .thumbnail #image2{
+	background-image: url(../images/guarderia.jpg);
+}
+section .thumbnail #image3{
+	background-image: url(../images/baño.jpg);
+}
+
+section .thumbnail-caption{
+	margin-top: 2rem;
+	font-size: 4rem;
+	font-family: 'Lato-Heavy';
+	color: rgba(190, 140, 41, .6) !important;
+
+}
+
+#slider-carousel,
+#slider-carousel .carousel-inner,
+#slider-carousel .carousel-inner .fill{
+    height: 30rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 25%;
+}
+
+#slider-carousel #slide1{
+    background-image: url(../images/veterinaria.jpg); 
+}
+
+#slider-carousel #slide2{
+    background-image: url(../images/guarderia.jpg); 
+}
+
+#slider-carousel #slide3{
+    background-image: url(../images/baño.jpg); 
+}
+
+section a{
+	text-decoration: none;
+	color: rgba(190, 140, 41, 1);
+}
+
+section a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.modal-body{
+	font-family: 'Lato-Light';
+}
+
+.modal-header{
+	background-color: grey;
+	color: white;
+	font-family: 'Lato-Bold';
+}
+
+
+.footer{
+	margin-top: 6rem;
+	padding: 1rem;
+	border-top: 2px solid rgba(190, 140, 41, 1);
+	padding-top: 2rem;
+}
+
+.copyright{
+	margin-left: 3rem;
+	color: rgba(190, 140, 41, 1);
+}
+
+.btn-primary{
+	background-color: rgba(190, 140, 41, 1);
+	border: 1px solid white;
+	margin-right: 3rem;
+}
+
+
+@media screen and (max-width: 435px){
+	.navbar-brand .fill{
+    	margin-top: -7.2rem;
+    }
+
+	.navbar-nav li a{
+		font-size: 1.5rem;
+		width: auto;
+	}
+
+	.col-md-6 .description{
+		font-size: 2.5vh !important;
+	}
+
+	.row{
+		display: inline-block;
+	}
+
+	.footer{
+		position: relative;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	
+	.navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+
+     .navbar-header {
+        float:none;
+    }
+
+    .navbar-brand .fill{
+    	margin-top: -7.2rem;
+    }
+
+	.navbar-nav li a{
+		font-size: 1.5rem;
+		width: auto;
+	}
+
+	section .thumbnail-caption {
+		font-size: 4vh !important;
+	}
+
+
+
+	.row{
+		display: flex;
+		padding-left: 3rem;
+	}
+
+	.thumbnail .fill{
+		height: 20rem;
+		width: 20rem;
+	}
+
+
+
+
+	.list-inline{
+		margin-left: 0 !important;
+	}
+
+}

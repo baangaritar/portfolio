@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="author" content="Brain Group">
+		<meta name="description" content="">
+		<link rel="icon" href="images/logo.png">
+
+		<title>D&amp;C Services</title>
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/services.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+			    $('[data-toggle="popover"]').popover();   
+			});
+		</script>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container-fluid">
+    			<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		    			<span class="icon-bar"></span>
+ 						<span class="icon-bar"></span>
+ 						<span class="icon-bar"></span>
+		  			</button>
+		  		</div>
+
+	  			<a class="navbar-brand" href="index.html"><img class="image-responsive fill" id="logo" src="images/logo.png""></a>
+
+	  			<div class="collapse navbar-collapse" role="navitation">
+	  				<ul class="nav navbar-nav navbar-right">
+	  					<li >
+	  						<a href="nv.html">¿Quienes Somos?</a>
+	  					</li>
+	  					<li class="active">
+	  						<a href="services.html">Nuestros Servicios</a>
+	  					</li>
+	  					<li>
+	  						<a href="http://healthdiscovery.com.co/desarrollo/Popet/store.html">Todo Para Tu Mascota</a>
+	  					</li>
+	  					<li>
+	  						<a href="contact.html">Contactanos</a>
+	  					</li>
+	  				</ul>
+	  				
+	  			</div>
+  			</div>
+		</nav>
+		<section class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="fill" id="image1"></div>
+						<div class="thumbnail-caption">
+							<a class="center-block text-center" class="btn btn-info btn-lg" data-toggle="modal" data-target="#clinic">Clinica Veterinaria</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="fill" id="image2"></div>
+						<div class="thumbnail-caption">
+							<a class="center-block text-center" class="btn btn-info btn-lg" data-toggle="modal" data-target="#kindergarten">Guardería Canina</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="fill" id="image3"></div>
+						<div class="thumbnail-caption">
+							<a class="center-block text-center" class="btn btn-info btn-lg" data-toggle="modal" data-target="#bath">Baño y peluquería</a>
+						</div>
+					</div>
+				</div>
+
+			</div>	
+		</section>
+
+
+		<div id="kindergarten" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title text-center">Guardería Canina</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>
+		        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lectus tortor, maximus et sagittis vehicula, ullamcorper vel urna. Phasellus dapibus metus eu ipsum ullamcorper, eu suscipit purus rutrum. Cras turpis odio, ullamcorper a consequat quis, laoreet nec justo. Sed pellentesque metus ut tortor bibendum, vitae convallis tortor commodo. Nullam convallis sem et velit tincidunt, a vehicula purus pellentesque. Fusce scelerisque commodo felis, quis maximus purus blandit nec. Etiam iaculis luctus velit ac fringilla. Maecenas accumsan, neque in tincidunt laoreet, lacus magna sagittis est, vitae viverra est enim quis velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eu laoreet elit. Sed pretium est nulla, eu dignissim magna venenatis id. Donec scelerisque, metus a laoreet molestie, lectus lorem fringilla nunc, eu lobortis velit libero quis tortor. Nam eu iaculis purus, in porta sapien.
+		        	<br>
+			        <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active" ></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="item">
+								<div class="fill" id="slide1"></div>
+							</div>
+				            <div class="item active">
+								<div class="fill" id="slide2"></div>
+				            </div>
+				            <div class="item">
+								<div class="fill" id="slide3"></div>
+							</div>
+						</div>
+			 		
+					</div>
+		        	<br>
+					Pellentesque feugiat odio eu felis luctus, non pharetra velit sollicitudin. In finibus tortor aliquet finibus mollis. Proin nisl justo, scelerisque sit amet nisi vel, ornare condimentum ipsum. Sed pretium mollis dignissim. Quisque vitae est vel nunc fringilla luctus. Praesent sit amet ligula pretium, ultricies leo ac, elementum urna. Suspendisse a tellus lectus. Nulla metus arcu, consectetur sed convallis sed, ullamcorper nec diam. Nam et est rutrum, pulvinar odio eu, mattis mi.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">Programa tu cita</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+
+		<div id="bath" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title text-center">Baño y Peluquería</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>
+		        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lectus tortor, maximus et sagittis vehicula, ullamcorper vel urna. Phasellus dapibus metus eu ipsum ullamcorper, eu suscipit purus rutrum. Cras turpis odio, ullamcorper a consequat quis, laoreet nec justo. Sed pellentesque metus ut tortor bibendum, vitae convallis tortor commodo. Nullam convallis sem et velit tincidunt, a vehicula purus pellentesque. Fusce scelerisque commodo felis, quis maximus purus blandit nec. Etiam iaculis luctus velit ac fringilla. Maecenas accumsan, neque in tincidunt laoreet, lacus magna sagittis est, vitae viverra est enim quis velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eu laoreet elit. Sed pretium est nulla, eu dignissim magna venenatis id. Donec scelerisque, metus a laoreet molestie, lectus lorem fringilla nunc, eu lobortis velit libero quis tortor. Nam eu iaculis purus, in porta sapien.
+		        	<br>
+			        <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active" ></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="item">
+								<div class="fill" id="slide1"></div>
+							</div>
+				            <div class="item">
+								<div class="fill" id="slide2"></div>
+				            </div>
+				            <div class="item active">
+								<div class="fill" id="slide3"></div>
+							</div>
+						</div>
+			 		
+					</div>
+		        	<br>
+					Pellentesque feugiat odio eu felis luctus, non pharetra velit sollicitudin. In finibus tortor aliquet finibus mollis. Proin nisl justo, scelerisque sit amet nisi vel, ornare condimentum ipsum. Sed pretium mollis dignissim. Quisque vitae est vel nunc fringilla luctus. Praesent sit amet ligula pretium, ultricies leo ac, elementum urna. Suspendisse a tellus lectus. Nulla metus arcu, consectetur sed convallis sed, ullamcorper nec diam. Nam et est rutrum, pulvinar odio eu, mattis mi.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">Programa tu cita</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+
+		<div id="clinic" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title text-center">Clinica Veterinaria</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>
+		        	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lectus tortor, maximus et sagittis vehicula, ullamcorper vel urna. Phasellus dapibus metus eu ipsum ullamcorper, eu suscipit purus rutrum. Cras turpis odio, ullamcorper a consequat quis, laoreet nec justo. Sed pellentesque metus ut tortor bibendum, vitae convallis tortor commodo. Nullam convallis sem et velit tincidunt, a vehicula purus pellentesque. Fusce scelerisque commodo felis, quis maximus purus blandit nec. Etiam iaculis luctus velit ac fringilla. Maecenas accumsan, neque in tincidunt laoreet, lacus magna sagittis est, vitae viverra est enim quis velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eu laoreet elit. Sed pretium est nulla, eu dignissim magna venenatis id. Donec scelerisque, metus a laoreet molestie, lectus lorem fringilla nunc, eu lobortis velit libero quis tortor. Nam eu iaculis purus, in porta sapien.
+		        	<br>
+			        <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider-carousel" data-slide-to="0" class="active" ></li>
+							<li data-target="#slider-carousel" data-slide-to="1"></li>
+							<li data-target="#slider-carousel" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="fill" id="slide1"></div>
+							</div>
+				            <div class="item">
+								<div class="fill" id="slide2"></div>
+				            </div>
+				            <div class="item">
+								<div class="fill" id="slide3"></div>
+							</div>
+						</div>
+			 		
+					</div>
+		        	<br>
+					Pellentesque feugiat odio eu felis luctus, non pharetra velit sollicitudin. In finibus tortor aliquet finibus mollis. Proin nisl justo, scelerisque sit amet nisi vel, ornare condimentum ipsum. Sed pretium mollis dignissim. Quisque vitae est vel nunc fringilla luctus. Praesent sit amet ligula pretium, ultricies leo ac, elementum urna. Suspendisse a tellus lectus. Nulla metus arcu, consectetur sed convallis sed, ullamcorper nec diam. Nam et est rutrum, pulvinar odio eu, mattis mi.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">Programa tu cita</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+		
+		<footer class="footer">
+			<span class="copyright">&copy; Todos los derechos reservados Brain Group</span>
+			<ul class="list-inline  pull-right">
+				<li>
+					<a href="contact.html" class="btn btn-primary"> CONTACTO</a>
+				</li>
+				<li>
+					<a href="http://healthdiscovery.com.co/desarrollo/Popet" class="btn btn-primary"> INICIAR SESIÓŃ</a>
+				</li>
+			</ul>
+			
+		</footer>
+	</body>
+</html>

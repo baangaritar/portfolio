@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<head>
+			<meta charset="utf-8">
+	 	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		    <meta name="description" content="">
+		    <meta name="author" content="Brain Group">
+		    <link rel="icon" href="images/LOGO POPET VERSION 2.png">
+
+		    <title>Tienda-Popet</title>
+
+		    <link rel="stylesheet" href="css/bootstrap.min.css">
+		    <link rel="stylesheet" type="text/css" href="css/slider.css">
+		    <link rel="stylesheet" type="text/css" href="css/store.css">
+		    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+			<script src="js/jquery.js"></script>
+		    <script src="js/bootstrap.min.js"></script>
+		    <script scr="js/bootstrap-slider.js"></script>
+
+
+	</head>
+	<body class="container-fluid">
+
+		<header class="container-fluid">
+			<nav class="navbar navbar-static-top" role="navigation">
+			    <div class="container">
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+		                 <span class="sr-only" id="toggle">Toggle navigation</span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                </button>
+
+			           	<div  class="navbar-brand ">
+		                    <a href="index.html"><img class="img-responsive" src="images/LOGO POPET VERSION 2.png" alt="POPET"></a>     
+		                </div>
+		            </div>
+					<nav class="collapse navbar-collapse" role="navigation" >
+						<ul class=" nav navbar-nav navbar-right"> 
+							<li>
+								<a href="popet.html"> 
+									<img class="center-block" src="images/Popet.svg" alt="¿Qué es popet?" height="30">
+									<p>¿Qué es popet?</p>
+								</a>
+							</li>
+							<li>
+								<a href="veterinary.html"> 
+									<img class="center-block" src="images/Veterinary.svg" alt="Veterinarias" height="30">
+									<p>Veterinarias</p>
+								</a>
+							</li>
+							<li>
+								<a href="commerce.html"> 
+									<img class="center-block" src="images/Commerce.svg" alt="Comercios" height="30">
+									<p>Comercios</p>
+								</a>
+							</li>
+							<li>
+								<a href="contact.html"> 
+									<img class="center-block" src="images/Contact.svg" alt="Contacto" height="30">
+									<p>Contacto</p>
+								</a>
+							</li>
+							<li class="dropdown ">
+					          	<a href="#" class=" center-block dropdown-toggle" data-toggle="dropdown" >
+					          		<p id="login-text">Iniciar sesión</p>
+					          	</a>
+								<ul id="login-dp" class="dropdown-menu">
+									<li>
+										 <div class="row">
+												<div class="col-md-12">
+													<form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+															<div class="form-group">
+																 <label class="sr-only" for="Company">Nombre de tu negocios</label>
+																 <input type="text" class="form-control" id="Company" placeholder="Nombre de tu negocio" required>
+															</div>
+															<div class="form-group">
+																 <label class="sr-only" for="User">Tus nombres</label>
+																 <input type="text" class="form-control" id="User" placeholder="Tus nombres" required>
+															</div>
+															<div class="form-group">
+																 <button type="submit" class="btn btn-primary btn-block" id="login">Iniciar sesión</button>
+															</div>
+													 </form>
+													<div class="social-buttons">
+														
+													<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+													<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+													
+													</div>
+												</div>
+												<div class="bottom text-center">
+													¡Nuevo aquí? <a href="contact.html"><b>Vincúlate ahora</b></a>
+												</div>
+										 </div>
+									</li>			
+								</ul>
+							</li>
+							<li class="dropdown" >
+					          	<a href="#" class=" center-block dropdown-toggle" data-toggle="dropdown">
+	  								<img class="center-block" src="images/Search.svg" alt="Buscar" height="30">
+	  								<p>Buscar</p>
+					          	</a>
+								<ul id="search-dp" class="dropdown-menu">
+									<li>
+										 <div class="row">
+			        						<div class="col-md-12" id="drop-search">
+			            						<form action="search" class="search-form">
+									                <div class="form-group has-feedback">
+									            		<label for="search" class="sr-only">Search</label>
+									            		<input type="text" class="form-control" name="search" id="search" placeholder="¿Qué estás buscando?">
+									              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+									            	</div>
+			            						</form>
+			       							</div>
+			    						</div>
+				  					</li>
+				  				</ul>
+				  			</li>		
+						</ul>
+					</nav>
+				</div>
+			</nav>
+		</header>
+		
+		<section id="slider">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#slider-carousel" data-slide-to="0" class="active" ></li>
+								<li data-target="#slider-carousel" data-slide-to="1"></li>
+								<li data-target="#slider-carousel" data-slide-to="2"></li>
+							</ol>
+
+							<div class="carousel-inner">
+								<div class="item">
+							        <div class="col-sm-6">
+										<h1 class="">PROMOCIÓN DEL MES</h1>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+										<button type="button" class="btn btn-default get">Adquierelo ya</button>
+									</div>
+									<div class="col-sm-6">
+										<img src="images/Slide Tienda .jpg" class="img-responsive" alt="" />
+									</div>
+								</div>
+							
+					            <div class="item active">
+					            	<div class="col-sm-6 text-center">
+										<h1 class="">PROMOCIÓN DEL MES</h1>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+										<button type="button" class="btn btn-default get">Adquierelo ya</button>
+									</div>
+									<div class="col-sm-6">
+										<img src="images/Slide Tienda .jpg" class="img-responsive" alt="" />
+									</div>
+
+					            </div>
+					            <div class="item">
+									<div class="col-sm-6 text-center">
+										<h1 class="">PROMOCIÓN DEL MES</h1>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+										<button type="button" class="btn btn-default get">Adquierelo ya</button>
+									</div>
+									<div class="col-sm-6">
+										<img src="images/Slide Tienda .jpg" class="img-responsive" alt="" />
+									</div>					            	
+								</div>
+						</div>
+ 			<a class="left carousel-control" href="#slider-carousel" data-slide="prev">
+				<span class="glyphicon glyphicon-triangle-left"></span>
+	        </a>
+	        <a class="right carousel-control" href="#slider-carousel" data-slide="next">
+	            <span class="glyphicon glyphicon-triangle-right"></span>
+	        </a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container featurette">
+			<div class=" text-center">
+				<div class="row">
+					<ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#dogs" aria-controls="dogs" role="tab" data-toggle="tab">Perros</a></li>
+                        <li role="presentation"><a href="#cats" aria-controls="cats" role="tab" data-toggle="tab">Gatos</a></li>					
+                    </ul>
+				</div>
+			</div>
+			
+			<div class="tab-content" >
+				<div role="tabpanel" class="tab-pane active" id="dogs">
+					<div class="row tags">
+						<ul class="list-inline text-center">
+							<li> <a href="">Alimento</a></li>
+							<li><a href="">Snacks</a></li>
+							<li><a href="">Antipulgas y desparasitante</a></li>
+							<li><a href="">Para pasear</a></li>
+							<li><a href="">Comedores</a></li>
+							<li><a href="">Camas</a></li>
+							<li><a href="">Entrenamiento</a></li>
+							<li><a href="">Salud</a></li>
+							<li><a href="">Belleza</a></li>
+						</ul>
+					</div>
+					<div class="container">
+							<div class="col-md-3">
+								<div class="left-sidebar">
+  									<h2>Filtrar Resultados</h2>
+
+									<div class="panel-group category-products" id="accordian"><!--category-productsr-->
+									
+										<div class="panel panel-default">
+									      	<div class="panel-heading">
+									      	Categorias
+									      	</div>
+									      	<div class="panel-body">
+									      		<div class="radio">
+  													<label><input type="radio" name="optradio">Juguetes de tela</label>
+												</div>
+												<div class="radio">
+												  <label><input type="radio" name="optradio">Juguetes de goma</label>
+												</div>
+												<div class="radio">
+  													<label><input type="radio" name="optradio">Juguetes sorpresa</label>
+												</div>
+												<div class="radio">
+												  <label><input type="radio" name="optradio">Juguetes con lazos</label>
+												</div>
+												<div class="radio">
+  													<label><input type="radio" name="optradio">Pelotas</label>
+												</div>
+												<div class="radio">
+												  <label><input type="radio" name="optradio">Llantas</label>
+												</div>
+
+									      	</div>
+									    </div>
+
+									    <div class="panel panel-default">
+									    	<div class="panel-heading">
+									    		Marcas
+									    	</div>
+									    	<div class="panel-body">
+									      		<div class="radio">
+  													<label><input type="radio" name="optradio">Option 1</label>
+												</div>
+												<div class="radio">
+												  <label><input type="radio" name="optradio">Option 2</label>
+												</div>
+												<div class="radio">
+  													<label><input type="radio" name="optradio">Option 3</label>
+												</div>
+												<div class="radio">
+												  <label><input type="radio" name="optradio">Option 4</label>
+												</div>
+												<div class="radio">
+  													<label><input type="radio" name="optradio">Option 5</label>
+												</div>
+												<div class="radio">
+												  <label><input type="radio" name="optradio">Option 6</label>
+												</div>
+
+									      	</div>
+									    </div>
+
+									    <div class="panel panel-default">
+									    	<div class="panel-heading">Precio</div>
+									    	<div class="panel-body" id="price">
+												<div class="well text-center">
+													 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
+													 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+												</div>
+									    	</div>
+									    </div>
+
+									    <div class="panel panel-default">
+									    	<div class="panel-heading">Tipo de producto</div>
+									    	<div class="panel-body">
+										    	<ul>
+										    		<li>
+											    		<div class="radio">
+		  													<label><input type="radio" name="optradio">Option 1</label>
+														</div>
+										    		</li>
+										    		<li>
+											    		<div class="radio">
+		  													<label><input type="radio" name="optradio">Option 2</label>
+														</div>
+										    		</li>
+										    		<li>
+											    		<div class="radio">
+		  													<label><input type="radio" name="optradio">Option 3</label>
+														</div>
+										    		</li>
+										    		<li>
+											    		<div class="radio">
+														  <label><input type="radio" name="optradio">Option 4</label>
+														</div>
+										    		</li>
+										    		<li>
+											    		<div class="radio">
+		  													<label><input type="radio" name="optradio">Option 5</label>
+														</div>
+										    		</li>
+										    		<li>
+											    		<div class="radio">
+														  <label><input type="radio" name="optradio">Option 6</label>
+														</div>
+										    		</li>
+										    	</ul>	    		
+									      	</div>
+									    </div>
+
+									    <div class="panel panel-default">
+									    	<div class="panel-heading">Valoración de clientes</div>
+									    	<div class="text-center panel-body">
+									      		<br>
+									      		<a href="" class="rating">
+													<i class="fa fa-paw" aria-hidden="true">&nbsp;&nbsp;</i><i class="fa fa-paw" aria-hidden="true">&nbsp;&nbsp;</i><i class="fa fa-paw" aria-hidden="true">&nbsp;&nbsp;</i><i class="fa fa-paw" aria-hidden="true">&nbsp;&nbsp;</i><i class="fa fa-paw" aria-hidden="true">&nbsp;&nbsp;</i>
+
+												</a>
+												<br>
+												<br>
+									      	</div>
+									    </div>
+									</div><!--/category-products-->
+								</div>
+							</div>
+							<div class="col-md-9">
+					           
+					      		<div class="row" id="row-search">
+						      		<div class="col-md-12>
+							          	<form action="" class="search-form" id="store-search">
+							               	<div class="form-group has-feedback">
+							                	<label for="search" class="sr-only">¿Qué estas buscando?</label>
+							                	<input type="text" class="form-control" name="search" id="search" placeholder="search">
+							                  	<span class="glyphicon glyphicon-search form-control-feedback"></span>
+							              	</div>
+							            </form>
+							        </div>
+					      		</div>
+
+					      		<div class="row text-center" id="outstanding-products">
+					      			<div class="col-md-2">
+					      				<a href="" class="thumbnail">
+					      					<img src="images/juguete tela.jpg" alt="juguetes en tela.jpg">
+					      					<div class="caption">
+					      						<p>Juguetes en tela</p>
+					      					</div>
+					      				</a>
+					      			</div> 
+					      			<div class="col-md-2">
+					      				<a href="" class="thumbnail">
+					      					<img src="images/juguetes goma.jpg" alt="juguetes en goma.jpg">
+					      					<div class="caption">
+					      						<p>Juguetes de goma</p>
+					      					</div>
+					      				</a>
+					      			</div>
+					      			<div class="col-md-2">
+					      				<a href="" class="thumbnail">
+					      					<img src="images/juguetes sorpresa.jpg" alt="juguetes sorpresa.jpg">
+					      					<div class="caption">
+					      						<p>Juguetes sorpresa</p>
+					      					</div>
+					      				</a>
+					      			</div>
+					      			<div class="col-md-2">
+					      				<a href="" class="thumbnail">
+					      					<img src="images/juguete lazo.jpg" alt="juguetes lazo.jpg">
+					      					<div class="caption">
+					      						<p>Juguetes de lazo</p>
+					      					</div>
+					      				</a>
+					      			</div>
+					      			<div class="col-md-2">
+					      				<a href="" class="thumbnail">
+					      					<img src="images/pelota.jpg" alt="pelota.jpg">
+					      					<div class="caption">
+					      						<p>Pelotas</p>
+					      					</div>
+					      				</a>
+					      			</div>
+					      			<div class="col-md-2">
+					      				<a href="" class="thumbnail">
+					      					<img src="images/llantas.jpeg" alt="llantas.jpeg">
+					      					<div class="caption">
+					      						<p>Llantas</p>
+					      					</div>
+					      				</a>
+					      			</div>
+					      		</div>
+					      		<div class="row product-description">
+					      			<div class="col-md-3">
+										<div class="thumbnail">
+											<img src="images/producto4.jpg">
+											<div class="caption">
+												<a href="" class="rating">
+													<i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i>
+
+												</a>			
+											</div>
+										</div>
+					      			</div>
+					      			<div class="col-md-6">
+					      				<div class="caption">
+					      					<h4 id="caption-title"><span>KONG</span> Juguete de sorpresa para perro</h4>
+					      					<p id="caption-reference"> SKU: 123456789 MARCA: KONG </p>
+					      					<p id="caption-description">
+					      					Hecho en EEUU
+					      					<br>
+					      					Goodie de agarre Juguetes salvar la distancia entre las golosinas, jugar y hacer ejercicio
+hueso de goma sólida rebota impredecible para hacer su trabajo de perro para su recompensa nserte golosinas en las sorpresas Pinzas y el comercio; y ver a su perro ir salvaje tratando de recuperarlos		      					</p>
+											<div class="product-order">
+												<p class="caption-state">
+													En Stock
+												</p>
+												<a href="">Ordenar ahora para enviar Mierc Jul 5</a>
+											</div>
+					      				</div>
+					      			</div>
+					      			<div class="col-md-3">
+					      				<div class="price-caption text-center">
+					      					<p> Pagas: <span id="price"> $60000</span></p>	
+											<input type="text" class="form-control" id="quantity">
+					      					<a href="" class="btn btn-primary">Anadir al carrito</a>
+					      				</div>
+					      			</div>
+					      		</div>
+								<div class="row product-description">
+					      			<div class="col-md-3">
+										<div class="thumbnail">
+											<img src="images/producto1.jpg">
+											<div class="caption">
+												<a href="" class="rating">
+													<i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i>
+
+												</a>			
+											</div>
+										</div>
+					      			</div>
+					      			<div class="col-md-6">
+					      				<div class="caption">
+					      					<h4 id="caption-title"><span>KONG</span> Juguete de sorpresa para perro</h4>
+					      					<p id="caption-reference"> SKU: 123456789 MARCA: KONG </p>
+					      					<p id="caption-description">
+					      					Hecho en EEUU
+					      					<br>
+					      					Goodie de agarre Juguetes salvar la distancia entre las golosinas, jugar y hacer ejercicio
+hueso de goma sólida rebota impredecible para hacer su trabajo de perro para su recompensa nserte golosinas en las sorpresas Pinzas y el comercio; y ver a su perro ir salvaje tratando de recuperarlos		      					</p>
+											<div class="product-order">
+												<p class="caption-state">
+													En Stock
+												</p>
+												<a href="">Ordenar ahora para enviar Mierc Jul 5</a>
+											</div>
+					      				</div>
+					      			</div>
+					      			<div class="col-md-3">
+					      				<div class="price-caption text-center">
+					      					<p> Pagas: <span id="price"> $60000</span></p>	
+											<input type="text" class="form-control" id="quantity">
+					      					<a href="" class="btn btn-primary">Anadir al carrito</a>
+					      				</div>
+					      			</div>
+					      		</div>
+					      		<div class="row product-description">
+					      			<div class="col-md-3">
+										<div class="thumbnail">
+											<img src="images/producto2.jpg">
+											<div class="caption">
+												<a href="" class="rating">
+													<i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i>
+
+												</a>			
+											</div>
+										</div>
+					      			</div>
+					      			<div class="col-md-6">
+					      				<div class="caption">
+					      					<h4 id="caption-title"><span>KONG</span> Juguete de sorpresa para perro</h4>
+					      					<p id="caption-reference"> SKU: 123456789 MARCA: KONG </p>
+					      					<p id="caption-description">
+					      					Hecho en EEUU
+					      					<br>
+					      					Goodie de agarre Juguetes salvar la distancia entre las golosinas, jugar y hacer ejercicio
+hueso de goma sólida rebota impredecible para hacer su trabajo de perro para su recompensa nserte golosinas en las sorpresas Pinzas y el comercio; y ver a su perro ir salvaje tratando de recuperarlos		      					</p>
+											<div class="product-order">
+												<p class="caption-state">
+													En Stock
+												</p>
+												<a href="">Ordenar ahora para enviar Mierc Jul 5</a>
+											</div>
+					      				</div>
+					      			</div>
+					      			<div class="col-md-3">
+					      				<div class="price-caption text-center">
+					      					<p> Pagas: <span id="price"> $60000</span></p>	
+												<input type="text" class="form-control" id="quantity">
+												<a href="" class="btn btn-primary">Anadir al carrito</a>
+					      				</div>
+					      			</div>
+					      		</div>
+					      		<div class="row product-description">
+					      			<div class="col-md-3">
+										<div class="thumbnail">
+											<img src="images/producto3.jpg">
+											<div class="caption">
+												<a href="" class="rating">
+													<i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i><i class="fa fa-paw" aria-hidden="true"> </i>
+
+												</a>			
+											</div>
+										</div>
+					      			</div>
+					      			<div class="col-md-6">
+					      				<div class="caption">
+					      					<h4 id="caption-title"><span>KONG</span> Juguete de sorpresa para perro</h4>
+					      					<p id="caption-reference"> SKU: 123456789 MARCA: KONG </p>
+					      					<p id="caption-description">
+					      					Hecho en EEUU
+					      					<br>
+					      					Goodie de agarre Juguetes salvar la distancia entre las golosinas, jugar y hacer ejercicio
+hueso de goma sólida rebota impredecible para hacer su trabajo de perro para su recompensa nserte golosinas en las sorpresas Pinzas y el comercio; y ver a su perro ir salvaje tratando de recuperarlos		      					</p>
+											<div class="product-order">
+												<p class="caption-state">
+													En Stock
+												</p>
+												<a href="">Ordenar ahora para enviar Mierc Jul 5</a>
+											</div>
+					      				</div>
+					      			</div>
+					      			<div class="col-md-3">
+					      				<div class="price-caption text-center">
+					      					<p> Pagas: 	<span id="price"> $60000</span></p>	
+											<input type="text" class="form-control" id="quantity">
+					      					<a href="" class="btn btn-primary">Anadir al carrito</a>
+					      				</div>
+					      			</div>
+					      		</div>
+					        </div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane active" id="cats">
+				</div>
+			</div>	
+
+		</section>
+		<footer class="container">
+            <div class="row">
+                <p class="col-sm-4">&copy; 2017 POPET-Todos Los Derechos Reservados</p>
+                <ul class="col-sm-8">
+                    <li><a href="contact.html" id="contact"> CONTACTO </a></li>
+                    <li><a href="#"> HOME <span class="glyphicon glyphicon-hand-up"></span> </a></li>
+
+                </ul>
+            </div>
+        </footer>
+	</body>
+</html>

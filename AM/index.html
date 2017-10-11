@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="author" content="Brain Group">
+		<meta name="description" content="">
+		<link rel="icon"  href="images/logo.png">
+
+		<title>Animales Magicos</title>
+
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+   		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/resizelogo.js"></script>
+	</head>
+	<body class="container-fluid" data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".sidebar-navbar-collapse" aria-expanded="false" aria-controls="navbar">
+	                 	<span class="sr-only" id="toggle"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+						<a class="navbar-brand navbar-brand-centered" id="Logo" href="index.html"></a>
+					</div>
+					<nav class="collapse navbar-collapse" role="navigation" >
+						<ul class="nav navbar-nav navbar-left">
+							<li>
+								<a href="#section1">¿Quienes somos?</a>
+							</li>
+							<li><a href="#section2">Nuestros Servicios</a></li>
+						</ul>
+
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#section3">Tienda</a>
+							</li>
+							<li>
+								<a href="#section4">Contactanos</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>
+			
+			<div id="slider" class="carousel slide">
+				<div class="carousel-inner">
+        			<div class="item active">
+          				<div class="fill" id="slide1"></div>
+				        <div class="container">
+				            <div class="carousel-caption">
+				              	<h1></h1>
+				              	<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				              	<a class="btn btn-large btn-primary" href="#">¡Adquierelo hoy!</a>
+				            </div>
+				        </div>
+        			</div>
+        			<div class="item">
+          				<div class="fill" id="slide2"></div>
+				        <div class="container">
+				            <div class="carousel-caption">
+				              	<h1></h1>
+				              	<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				              	<a class="btn btn-large btn-primary" href="#">Conoce más</a>
+				            </div>
+				        </div>
+        			</div>
+        			<div class="item">
+          				<div class="fill" id="slide3"></div>
+				        <div class="container">
+				            <div class="carousel-caption">
+				              	<h1></h1>
+				              	<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+				              	<a class="btn btn-large btn-primary" href="#">Contactanos</a>
+				            </div>
+				        </div>
+        			</div>
+      			</div>
+ 				<a class="left carousel-control" href="#slider" data-slide="prev">
+					<span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+	       		 </a>
+	        	<a class="right carousel-control" href="#slider" data-slide="next">
+	            	<span class="glyphicon glyphicon-triangle-right"></span>
+	        	</a>
+			</div>
+		</header>
+		<section class="container-fluid" id="section1">
+			<div class="row">
+				<h1 class="text-center">¿Quienes Somos?</h1>
+				<br>
+				<br>
+				<div class="col-md-6">
+					<p class="description">Somos una institucion consectetur adipiscing elit.Nunc gravida enim ut imperdiet tincidunt. Morbi iaculis, tellus quis pretium finibus, sapien leo fermentum dolor, a malesuada tortor quam sit amettortor. Suspendisse tempor arcu et justo convallis faucibus. In porta suscipit eros, ac cursus tellus. Etiam facilisis nec risus eget roncus. Curabitur id lacinia nisi. Cras auctor dum venenatis. Aliquam erat volutpat. Proin nibh est, facilisis ac .						
+					</p>	
+				</div>
+				<div class="col-md-6">
+					<div id="slider">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<div id="slider-carousel" class="carousel slide" data-ride="carousel">
+										<ol class="carousel-indicators">
+											<li data-target="#slider-carousel" data-slide-to="0" class="active" ></li>
+											<li data-target="#slider-carousel" data-slide-to="1"></li>
+											<li data-target="#slider-carousel" data-slide-to="2"></li>
+										</ol>
+
+										<div class="carousel-inner">
+											<div class="item">
+			        							<div class="fill" id="slide1"></div>
+											</div>
+								            <div class="item active">
+												<div class="fill" id="slide2"></div>
+								            </div>
+								            <div class="item">
+												<div class="fill" id="slide3"></div>
+											</div>
+										</div>
+							 			<a class="left carousel-control" href="#slider-carousel" data-slide="prev">
+											<span class="glyphicon glyphicon-triangle-left"></span>
+								        </a>
+								        <a class="right carousel-control" href="#slider-carousel" data-slide="next">
+								            <span class="glyphicon glyphicon-triangle-right"></span>
+								        </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid" id="section2">
+			<h1 class="text-center">Nuestros servicios</h1>
+			<div class="row center-block">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="image" id="image1"> </div>
+						<div class="caption">
+							<p>
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper.
+							</p>
+							<a href="service1.html" class="btn btn-primary center-block">Laboratorio</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="image" id="image2"></div>
+						<div class="caption">
+							<p>
+								Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+							</p>
+							<a href="service2.html" class="btn btn-primary center-block">Consulta</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="image" id="image3"></div>
+						<div class="caption">
+							<p>
+								Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
+							</p>
+							<a href="service3.html" class="btn btn-primary center-block">Baño y peluquería</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid center-block" id="section3">
+			<div class="row">
+				<div class="col-md-7">
+					<h1 class="text-center">Nuestros productos</h1>
+
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
+				</div>
+				<div class="col-md-5">
+					<a href="http://healthdiscovery.com.co/desarrollo/Popet/store.html"<div class="fill center-block"></div></a>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid center-block" id="section4">
+			<div class="row">
+				<div class="col-md-7">
+					 <form class="form-horizontal" action=" " method="post"  id="contact_form">
+				
+						<h1 class="text-center">¡Contactanos!</h1>
+
+
+						<div class="form-group">
+						  	<label class="col-md-4 control-label">Nombre Completo</label>  
+						  	<div class="col-md-6 inputGroupContainer">
+							  	<div class="input-group">
+							  		<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							  		<input  name="nombre" placeholder="Nombre Completo" class="form-control"  type="text">
+							    </div>
+						  	</div>
+						</div>
+
+				       	<div class="form-group">
+						  	<label class="col-md-4 control-label">E-Mail</label>  
+						    <div class="col-md-6 inputGroupContainer">
+						    	<div class="input-group">
+						        	<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+						  			<input name="correo" placeholder="E-Mail" class="form-control"  type="text">
+						    	</div>
+						  	</div>
+						</div>
+
+
+				       
+						<div class="form-group">
+						  	<label class="col-md-4 control-label">Telefono</label>  
+						    <div class="col-md-6 inputGroupContainer">
+							    <div class="input-group">
+							        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+							  		<input name="telefono" placeholder="(845)555-1212" class="form-control" type="text">
+							    </div>
+						  	</div>
+						</div>
+
+				      
+						<div class="form-group">
+						  	<label class="col-md-4 control-label">Dirección</label>  
+						    <div class="col-md-6 inputGroupContainer">
+						    	<div class="input-group">
+						        	<span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+						  			<input name="direccion" placeholder="Dirección" class="form-control" type="text">
+						    	</div>
+						  	</div>
+						</div>
+
+
+				   
+						<div class="form-group"> 
+								<label class="col-md-4 control-label">Ciudad</label>
+							<div class="col-md-6 selectContainer">
+								<div class="input-group">
+						    		<span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+									<select name="ciudad" class="form-control selectpicker" >
+						  				<option value=" " >Selecciona tu ciudad</option>
+									    <option>Bogotá</option>
+									    <option>Medellin</option>
+									    <option >Cali</option>
+									    <option >Barranquilla</option>
+									    <option >Cartagena</option>
+									    <option >Villavicencio</option>
+									    <option >Bucaramanga</option>
+									</select>
+									</div>
+							</div>
+						</div>
+
+				  
+						<div class="form-group">
+						  	<label class="col-md-4 control-label">Dejanos tu comentario</label>
+						    <div class="col-md-6 inputGroupContainer">
+						    	<div class="input-group">
+						        	<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+						        	<textarea class="form-control" name="comment" placeholder="¿Comentarios o dudas?"></textarea>
+						  		</div>
+						  	</div>
+						</div>
+
+
+						<div class="form-group">
+						  	<label class="col-md-4 control-label"></label>
+						  	<div class="col-md-4">
+						    	<button type="enviar" class="center-block btn btn-warning" >Enviar <span class="glyphicon glyphicon-send"></span></button>
+						  	</div>
+						</div>
+					</form>
+				</div>
+			   
+				<div class="col-md-5">
+					<div id="map" style="width:90% ;height:30rem; border-radius: 25%; background:grey; margin-left: auto; margin-right: auto;"></div>
+
+					<script>
+					function initMap() {
+					    var mitienda = {lat: 4.661009642840186, lng: -74.06310123538208};
+					    var map = new google.maps.Map(document.getElementById('map'), {
+					      zoom: 14 ,
+					      center: mitienda
+					    });
+					    var marker = new google.maps.Marker({
+					      position: mitienda,
+					      map: map
+					    });
+					  }
+					</script>
+
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_VP7Rhp27A3ATHx6Bj4a11ce0X7va1OM&callback=initMap"></script>
+				</div>
+			</div>
+			
+			
+			<br>
+		</section>
+
+
+		<footer class="container-fluid">
+		    <div class="row">
+		      	<p class="col-sm-4">&copy; 2017 Brain Group-Todos Los Derechos Reservados</p>
+		      	<ul class="col-sm-8">
+					<li><a href="#"> HOME <span class="glyphicon glyphicon-hand-up"></span> </a></li>
+
+		      	</ul>
+		    </div>
+		</footer>
+	</body>
+</html>

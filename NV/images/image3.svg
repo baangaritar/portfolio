@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="65.42218mm"
+   height="73.933434mm"
+   viewBox="0 0 65.422181 73.933436"
+   version="1.1"
+   id="svg5449"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="image3.svg">
+  <defs
+     id="defs5443">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath30">
+      <path
+         d="M 0,800 H 800 V 0 H 0 Z"
+         id="path28"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath340">
+      <path
+         d="M 0,800 H 800 V 0 H 0 Z"
+         id="path338"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath422">
+      <path
+         d="M 0,800 H 800 V 0 H 0 Z"
+         id="path420"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="344.74094"
+     inkscape:cy="-21.558924"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5446">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-17.644436,-8.7195779)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-35.721787,191.27332)"
+       id="g416">
+      <g
+         id="g418"
+         clip-path="url(#clipPath422)">
+        <g
+           id="g424"
+           transform="translate(239.9038,468.6035)">
+          <path
+             d="m 0,0 c -0.003,0.014 -22.775,48.502 -49.597,35.964 0,0 -57.878,-30.577 5.354,-152.101 -4.328,8.319 -11.313,14.768 -16.806,22.264 -22.759,31.064 -37.572,84.149 -19.534,120.269 7.816,15.659 25.621,27.46 43.792,20.365 C -16.669,38.903 -8.523,18.153 0,0"
+             style="fill:#489fa8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path426"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g428"
+           transform="translate(278.0835,437.1128)">
+          <path
+             d="m 0,0 c 0.007,0.002 40.306,10.394 46.09,-11.869 0,0 10.371,-49.785 -93.679,-72.14 7.123,1.528 14.441,0.546 21.649,0.969 29.867,1.768 68.974,19.201 81.654,47.886 5.496,12.436 3.743,28.936 -9.506,36.295 C 31.539,9.29 15.085,3.89 0,0"
+             style="fill:#489fa8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path430"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+    <text
+       y="72.335869"
+       x="19.312391"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.11797523px;font-family:'Alfa Slab One';-inkscape-font-specification:AlfaSlabOne-Regular;writing-mode:lr-tb;fill:#58595b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       id="text434">
+      <tspan
+         style="stroke-width:0.35277775"
+         x="19.312391 22.507938 25.534651 28.705492 31.732203 35.084232 36.887909 40.643501 43.962589 47.170494"
+         y="72.335869"
+         sodipodi:role="line"
+         id="tspan432">VETERINARY</tspan>
+    </text>
+    <text
+       y="82.518875"
+       x="25.452417"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.47268295px;font-family:'Alfa Slab One';-inkscape-font-specification:AlfaSlabOne-Regular;writing-mode:lr-tb;fill:#58595b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       id="text438">
+      <tspan
+         style="stroke-width:0.35277775"
+         x="25.452417 32.443256 38.799427 42.948463 51.966457 56.019821"
+         y="82.518875"
+         sodipodi:role="line"
+         id="tspan436">CLINIC</tspan>
+    </text>
+    <g
+       id="g448"
+       transform="matrix(0.35277777,0,0,-0.35277777,45.887882,28.711834)">
+      <path
+         d="M 0,0 C 0,0 7.504,-10.114 17.292,-8.157 L 39.804,0 c 0,0 2.937,-15.987 -15.661,-32.301 0,0 -12.072,-3.589 -15.335,8.158 0,0 -5.871,-10.116 13.378,-10.441 0,0 2.936,-11.747 -16.315,-52.856 0,0 -3.261,-3.155 1.089,11.417 0,0 0.871,5.657 -3.48,2.396 0,0 -3.264,-8.19 -4.351,-14.102 0,0 -1.739,-3.52 -3.914,9.314 0,0 -4.785,11.095 -10.876,5.44 0,0 -3.046,-10.594 -2.393,-15.195 0,0 -3.263,-2.425 -3.263,5.406 0,0 -2.61,6.961 -3.698,3.046 0,0 -1.087,-5.439 0,-8.049 0,0 -14.138,11.094 -17.835,53.508 0,0 -0.652,12.398 3.479,6.743 0,0 11.095,-18.487 28.06,-9.354 0,0 8.483,3.046 -0.871,28.713 l -1.74,5.002 c 0,0 8.18,-4.784 12.465,-4.784 0,0 5.807,-0.218 1.457,7.939"
+         style="fill:#e38c01;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path450"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g452"
+       transform="matrix(0.35277777,0,0,-0.35277777,60.530029,49.308517)">
+      <path
+         d="M 0,0 V 8.677 H 8.782 V 0 h 8.625 V -8.782 H 8.782 V -17.46 H 0 v 8.678 H -8.678 V 0 Z"
+         style="fill:#58595b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path454"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

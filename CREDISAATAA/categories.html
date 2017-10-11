@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <meta name="name" content="">
+        <meta name=description content="">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/favicon.ico">
+        <title>Categorias - CREDISAATAA</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/categories.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="css/filter.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="css/slider.css">
+        <link rel="stylesheet" type="text/css" href="css/products.css">
+        <script src="js/tether.min.js"></script>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/rating.js"></script>
+        <script src="js/sidebar-left.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scroll-top.js"></script>
+
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class='nav-link' href="index.php">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link' href='index.php#acercade'>Quiénes somos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class='nav-link' href='index.php#produflash'>Produflash</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link' href='index.php#crediflash'>Crediflash</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link' href='index.php#formulario_asesoria'>Asesoría Financiera y Pensional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link' href='https://viajaengrande.com/microsite/saataa' target="_blank">Viajes</a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            Buscar
+                        </a>
+                        <ul id="search-dp" class="dropdown-menu">
+                            <li>
+                                <form action="search" class="search-form">
+                                    <div class="form-group has-feedback">
+                                        <input type="text" class="form-control" name="search" id="search" placeholder="¿Qué estás buscando?">
+                                        <i class="btn btn-primary fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="body">
+            <a href="#header" class="btn btn-outline-secondary fa fa-caret-up" aria-hidden="true" id="to-up"></a>
+
+            <header id="header">
+                <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider-carousel" data-slide-to="1"></li>
+                        <li data-target="#slider-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="fill" id="slide1"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fill" id="slide2"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fill" id="slide3"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="carousel-outstanding" class="carousel slide w-100" data-ride="carousel">
+                <h4 class="float-left">Productos destacados</h4>
+                <br>
+                <br>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria' id="category1" onClick="location.href='productos.php?cat=2&subcat=226&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>All in One</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category2" ' onClick="location.href='productos.php?cat=2&subcat=206&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Cámaras</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category3" onClick="location.href='productos.php?cat=2&subcat=192&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Celulares</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category4"  onClick="location.href='productos.php?cat=2&subcat=212&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Consolas</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category5" onClick="location.href='productos.php?cat=2&subcat=210&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Cursos</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category6" onClick="location.href='productos.php?cat=2&subcat=2&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Desktop</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category7" onClick="location.href='productos.php?cat=2&subcat=209&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Impresoras</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category8" onClick="location.href='productos.php?cat=2&subcat=224&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Joyería</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category9" onClick="location.href='productos.php?cat=2&subcat=5&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Monitores</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category10" onClick="location.href='productos.php?cat=2&subcat=225&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Next U</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category11" onClick="location.href='productos.php?cat=2&subcat=3&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Portátiles</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category12" onClick="location.href='productos.php?cat=2&subcat=211&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Proyectores</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category13" onClick="location.href='productos.php?cat=2&subcat=208&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Sonido</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category14" onClick="location.href='productos.php?cat=2&subcat=1&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Tablets</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category15" onClick="location.href='productos.php?cat=2&subcat=197&tipo=0&la=es '">
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-sm-12 center-block '>
+                                        <div class='box '>
+                                            <h3 class='white-text '>Televisores</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-outstanding" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-outstanding" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="row row-offcanvas row-offcanvas-left store">
+                <div class="col-md-5 col-lg-3 sidebar-offcanvas" id="filter">
+                    <p class="float-right hidden-md-up">
+                        <button type="button" class="ui-btn ui-btn-fa" data-toggle="offcanvas"><i class="fa fa-arrow-circle-right"></i></button>
+                    </p>
+                    <br>
+                    <div class="search">
+                        <form action="search" class="search-form">
+                            <div class="form-group has-feedback">
+                                <label for="search" class="sr-only">Search</label>
+                                <input type="text" class="form-control" name="search" id="search" placeholder="¿Qué estás buscando?">
+                                <span class="fa fa-search form-control-feedback"></span>
+                            </div>
+                        </form>
+                    </div>
+                    <br>
+                    <div class="card card-default">
+                        <div class="card-header text-center filter-name">Categorias</div>
+                        <div class="card-block">
+                            <ul>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;All in one</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Camaras</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Celulares</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Consolas</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Cursos</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Desktop</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Impresoras</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Joyeria</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Monitores</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Next U</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Portátiles</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Proyectores</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Sonido</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Tablets</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="category" value="All in one">
+                                    <label class="category-name">&emsp;Televisores</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-header text-center filter-name">Marcas</div>
+                        <div class="card-block">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="brand" value="marca1">
+                                    <label class="brand-name">&emsp;Marca 1</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand" value="marca1">
+                                    <label class="brand-name">&emsp;Marca 2</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand" value="marca1">
+                                    <label class="brand-name">&emsp;Marca 3</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand" value="marca1">
+                                    <label class="brand-name">&emsp;Marca 4</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand" value="marca1">
+                                    <label class="brand-name">&emsp;Marca 5</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="brand" value="marca1">
+                                    <label class="brand-name">&emsp;Marca 6</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header text-center filter-name">Precio</div>
+                        <div class="card-block">
+                            <form>
+                                <div data-role="rangeslider">
+                                    <input type="range" name="range-1a" id="range-1a" min="10000" max="5000000" value="1000000" step="1000">
+                                    <input type="range" name="range-1b" id="range-1b" min="10000" max="5000000" value="4000000" step="1000">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header text-center filter-name">Calificación</div>
+                        <div class="card-block">
+                            <div class='rating-stars text-center'>
+                                <ul class='list-inline' id='stars'>
+                                    <li class='star list-inline-item' title='Poor' data-value='1'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star list-inline-item' title='Fair' data-value='2'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star list-inline-item' title='Good' data-value='3'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star list-inline-item' title='Excellent' data-value='4'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                    <li class='star list-inline-item' title='WOW!!!' data-value='5'>
+                                        <i class='fa fa-star fa-fw'></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-9" id="content">
+                    <p class="float-left hidden-lg-up" id="side-btn">
+                        <button type="button" class="ui-btn ui-btn-fa" data-toggle="offcanvas"><i class="fa fa-arrow-circle-left"></i></button>
+                    </p>
+                    <div id="carousel-categories" class="carousel slide w-100" data-ride="carousel">
+                        <h4 class="float-left">Categorias</h4>
+                        <a href="">Ver todas</a>
+                        <br>
+                        <br>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria' id="category1" onClick="location.href='productos.php?cat=2&subcat=226&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>All in One</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category2" ' onClick="location.href='productos.php?cat=2&subcat=206&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Cámaras</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category3" onClick="location.href='productos.php?cat=2&subcat=192&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Celulares</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category4"  onClick="location.href='productos.php?cat=2&subcat=212&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Consolas</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category5" onClick="location.href='productos.php?cat=2&subcat=210&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Cursos</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category6" onClick="location.href='productos.php?cat=2&subcat=2&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Desktop</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category7" onClick="location.href='productos.php?cat=2&subcat=209&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Impresoras</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category8" onClick="location.href='productos.php?cat=2&subcat=224&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Joyería</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category9" onClick="location.href='productos.php?cat=2&subcat=5&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Monitores</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category10" onClick="location.href='productos.php?cat=2&subcat=225&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Next U</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category11" onClick="location.href='productos.php?cat=2&subcat=3&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Portátiles</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category12" onClick="location.href='productos.php?cat=2&subcat=211&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Proyectores</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category13" onClick="location.href='productos.php?cat=2&subcat=208&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Sonido</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category14" onClick="location.href='productos.php?cat=2&subcat=1&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Tablets</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 categoria ' id="category15" onClick="location.href='productos.php?cat=2&subcat=197&tipo=0&la=es '">
+                                    <div class='screen '>
+                                        <div class='row full-height middle-xs '>
+                                            <div class='col-sm-12 center-block '>
+                                                <div class='box '>
+                                                    <h3 class='white-text '>Televisores</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-categories" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-categories" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br>
+                    <div class='row ' id="products" >
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product1" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=116&la=es '">
+                            
+                            
+                            <div class='screen '">
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL ACER ES1431C2GP<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.038.877</span></div><span style='font-size:25px; '>$934.989</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class=' top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL ACER ES1431C2GP</div><div class=' text-center ' style='color:#134588;font-weight:bold '>$934.989</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product2" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=120&la=es '" >
+                            
+                            
+                            <div class='screen '>
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL DELLI5458-I341TWUBS <br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.759.988</span></div><span style='font-size:25px; '>$1.583.989</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL DELLI5458-I341TWUBS </div><div class='text-center ' style='color:#134588;font-weight:bold '>$1.583.989</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product3" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=119&la=es '" >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL DELL 3458 CORE I3<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.307.766</span></div><span style='font-size:25px; '>$1.176.989</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL DELL 3458 CORE I3</div><div class='text-center ' style='color:#134588;font-weight:bold '>$1.176.989</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product4" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=84&la=es '" >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL HP 14AC132LA CORE I7<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$2.496.988</span></div><span style='font-size:25px; '>$2.247.289</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL HP 14AC132LA CORE I7</div><div class='text-center ' style='color:#134588;font-weight:bold '>$2.247.289</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product5" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=70&la=es '" >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL HP 14ac115LA CORE I5<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.711.099</span></div><span style='font-size:25px; '>$1.539.989</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL HP 14ac115LA CORE I5</div><div class='text-center ' style='color:#134588;font-weight:bold '>$1.539.989</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product6" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=139&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL HP 14AF117LA/A6/4/500/14<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.099.988</span></div><span style='font-size:25px; '>$989.989</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL HP 14AF117LA/A6/4/500/14</div><div class='text-center ' style='color:#134588;font-weight:bold '>$989.989</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product7" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=138&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL LENOVO G40-80 C7<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$2.638.766</span></div><span style='font-size:25px; '>$2.374.889</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL LENOVO G40-80 C7</div><div class='text-center ' style='color:#134588;font-weight:bold '>$2.374.889</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product8" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=121&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL LENOVO B4-80Ci35005U/4/500/W10P <br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.619.432</span></div><span style='font-size:25px; '>$1.457.489</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL LENOVO B4-80Ci35005U/4/500/W10P </div><div class='text-center ' style='color:#134588;font-weight:bold '>$1.457.489</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product9" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=52&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL LENOVO 11014IBR/N3060<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.014.432</span></div><span style='font-size:25px; '>$912.989</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL LENOVO 11014IBR/N3060</div><div class='text-center ' style='color:#134588;font-weight:bold '>$912.989</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product10" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=122&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL LENOVO 300-14IBR<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.099.988</span></div><span style='font-size:25px; '>$989.989</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL LENOVO 300-14IBR</div><div class='text-center ' style='color:#134588;font-weight:bold '>$989.989</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product11" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=118&la=es '" >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL ASUS 8555DG-XX033<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.944.543</span></div><span style='font-size:25px; '>$1.750.089</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL ASUS 8555DG-XX033</div><div class='text-center ' style='color:#134588;font-weight:bold '>$1.750.089</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product12" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=137&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL ACER ES157250TV<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.777.111</span></div><span style='font-size:25px; '>$1.599.400</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL ACER ES157250TV</div><div class='text-center ' style='color:#134588;font-weight:bold '>$1.599.400</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product13" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=117&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL ASUS X541SAXO<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.038.877</span></div><span style='font-size:25px; '>$934.989</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL ASUS X541SAXO</div><div class='text-center ' style='color:#134588;font-weight:bold '>$934.989</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product14" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=123&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL HP 14AF117LA/A6/4/500/14<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.008.333</span></div><span style='font-size:25px; '>$907.500</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL HP 14AF117LA/A6/4/500/14</div><div class='text-center ' style='color:#134588;font-weight:bold '>$907.500</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product15" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=81&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL LENOVO G40-80 C17<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$2.638.170</span></div><span style='font-size:25px; '>$2.374.353</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL LENOVO G40-80 C17</div><div class='text-center ' style='color:#134588;font-weight:bold '>$2.374.353</div>
+                        </div>
+                        
+                        
+                        <div class='col-md-3 col-lg-3 col-sm-3 col-xs-12 producto ' id="product16" style='cursor:pointer ' onClick="location.href='producto_item.php?tipo=424&id=28&la=es '"  >
+                            
+                            
+                            <div class='screen ' >
+                                <div class='row full-height middle-xs '>
+                                    <div class='col-xs-12 center-block '>
+                                        <div class='box '>
+                                            <h4 class='white-text '>
+                                            PORTATIL LENOVO G40-80 CI5<br/><br/><div class='color_rojo ' style='font-size:16px; '>Antes <span style='text-decoration:line-through '>$1.946.988</span></div><span style='font-size:25px; '>$1.752.289</span><br/><br/><div class='color_rojo ' style='font-size:14px; padding-top:5px; '>¡Por tiempo limitado!</div>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='top-space text-center ' style='color:#777;font-weight:bold;font-size:95% '>PORTATIL LENOVO G40-80 CI5</div><div class='text-center ' style='color:#134588;font-weight:bold '>$1.752.289</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div style="background-color: black; color: white; font-size:10px; text-align:center">© 2017 Saataa - Todos los derechos reservados<a href="http://www.planigrafo.com" target="_blank"></a></div>
+        </footer>
+            
+    </body>
+</html>

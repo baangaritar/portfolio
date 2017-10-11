@@ -1,0 +1,24 @@
+#slider-carousel,
+#slider-carousel .carousel-inner,
+#slider-carousel .carousel-inner .fill{
+    height: 400rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 25%;
+}
+
+#slider-carousel #slide1{
+    background-image: url(../images/veterinaria.jpg); 
+}
+
+#slider-carousel #slide2{
+    background-image: url(../images/guarderia.jpg); 
+}
+
+#slider-carousel #slide3{
+    background-image: url(../images/baño.jpg); 
+}

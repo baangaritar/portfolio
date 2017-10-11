@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Brain Group">
+    <meta name="description" content="">
+    <link rel="icon" href="images/LOGO POPET VERSION 2.png">
+    <title>Popet Social</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar-fixed-side.css">
+    <link rel="stylesheet" type="text/css" href="css/social-network.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-4 col-lg-3">
+            <nav class="navbar navbar-default navbar-fixed-side">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only" id="toggle">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand ">
+                            <a href="index.html"><img class="img-responsive center-block" src="images/Logo Popet White.svg" alt="POPET"></a>
+                        </div>
+                    </div>
+                    <nav class="collapse navbar-collapse" role="navigation">
+                        <div class="row" id="profile">
+                            <div class="col-md-5">
+                                <div class="fill" id="avatar"></div>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="h4" id="user-name">Viviana Sandoval</p>
+                                <a class="h5" id="profile-link" href="">Ver perfil</a>
+                                <br>
+                                <a id="messages" href="">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+										Mensajes
+									</a>
+                            </div>
+                        </div>
+                        <div id="my-pets">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="fill pull-right" id="pet-avatar-1"></div>
+                                </div>
+                                <div class="col-md-7 pet-information">
+                                    <p class="h5" id="user-name">Mateo Sandoval</p>
+                                    <a class="h6" id="profile-link" href="">Mensajes ( <span id="n-msg">1</span>)</a>
+                                    <br>
+                                    <a class="h6" id="profile-link" href="">Noticias ( <span id="n-news">2</span>)</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="fill pull-right" id="pet-avatar-2"></div>
+                                </div>
+                                <div class="col-md-7 pet-information">
+                                    <p class="h5" id="user-name">Minina Sandoval</p>
+                                    <a class="h6" id="profile-link" href="">Mensajes ( <span id="n-msg">1</span>)</a>
+                                    <br>
+                                    <a class="h6" id="profile-link" href="">Noticias ( <span id="n-news">0</span>)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu">
+                            <ul>
+                                <li>
+                                    <a href="">Contenidos</a>
+                                </li>
+                                <li>
+                                    <a href="">Tienda</a>
+                                </li>
+                                <li>
+                                    <a href="">Aplicación</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="help">
+                            <ul>
+                                <li>
+                                    <a href="">Terminos y condiciones</a>
+                                </li>
+                                <li>
+                                    <a href="">Contacto</a>
+                                </li>
+                                <li>
+                                    <a href="">Ayuda</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="copyright text-center"> Popet.club &copy; 2017</span>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <div class="row row row-offcanvas row-offcanvas-right">
+            <p class="pull-right visible-xs">
+                <button type="button" class="btn btn-primary btn-xs glyphicon glyphicon-hand-right " data-toggle="offcanvas" id="slide">
+                </button>
+            </p>
+            <div class=" col-sm-12 col-xs-12 col-lg-9 col-md-9" id="content">
+                <header class="cover-page">
+                    <div id="slider">
+                        <div id="slider-carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#slider-carousel" data-slide-to="1"></li>
+                                <li data-target="#slider-carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="fill" id="slide1"></div>
+                                </div>
+                                <div class="item">
+                                    <div class="fill" id="slide2"></div>
+                                </div>
+                                <div class="item">
+                                    <div class="fill" id="slide3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <body>
+                    <ul class="nav nav-tabs text-center" id="main-tabs" role="tablist">
+                        <li class="active">
+                            <a href="#tab-profile" data-toggle="tab">Mi Perfil</a>
+                        </li>
+                        <li>
+                            <a href="#tab-interest" data-toggle="tab">Intereses</a>
+                        </li>
+                        <li>
+                            <a href="#tab-images" data-toggle="tab">Imagenes</a>
+                        </li>
+                        <li>
+                            <a href="#tab-events" data-toggle="tab">Eventos</a>
+                        </li>
+                        <li>
+                            <a href="#clinical-history" data-toggle="tab">Historia Clinica</a>
+                        </li>
+                        <li id="shopping-icon">
+                            <a class="fa fa-shopping-cart" href="http://healthdiscovery.com.co/desarrollo/Popet/store.html"></a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="tab-profile">
+                            <div class="row">
+                                <div class="col-md-4" id="pet-profile">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="thumbnail">
+                                                <div class="fill"></div>
+                                                <div class="thumbnail-caption">
+                                                    <p id="pet-name">Mateo Sandoval</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <p>Raza: <span id="breed"> Labrador Dorado</span> </p>
+                                            <p>Edad: <span id="age"> 4 años</span> </p>
+                                            <p>Parque favorito: <span id="favorite-park"> Virrey</span> </p>
+                                            <p id="pet-description">Juguetón y dormilón, Busco novia</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" id="where-to">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">¿Dónde estás?</div>
+                                        <div class="panel-content">
+                                            <div id="map" style="width:100% ;height:15rem; background:grey; margin-left: auto; margin-right: auto;"></div>
+                                            <script>
+                                            function initMap() {
+                                                var map = new google.maps.Map(document.getElementById('map'), {
+                                                    center: { lat: -34.397, lng: 150.644 },
+                                                    zoom: 17
+                                                });
+
+                                                var marker = null;
+
+                                                // Try HTML5 geolocation.
+                                                if (navigator.geolocation) {
+                                                    navigator.geolocation.getCurrentPosition(function(position) {
+                                                        var pos = {
+                                                            lat: position.coords.latitude,
+                                                            lng: position.coords.longitude
+                                                        };
+
+                                                        marker = new google.maps.Marker({
+													        position: pos,
+													        map: map
+													     	});	
+                                                        map.setCenter(pos);
+                                                    }, function() {
+                                                        handleLocationError(true, marker, map.getCenter());
+                                                    });
+                                                } else {
+                                                    // Browser doesn't support Geolocation
+                                                    handleLocationError(false, marker, map.getCenter());
+                                                }
+                                            }
+
+                                            function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+                                                infoWindow.setPosition(pos);
+                                                infoWindow.setContent(browserHasGeolocation ?
+                                                    'Error: The Geolocation service failed.' :
+                                                    'Error: Your browser doesn\'t support geolocation.');
+                                            }
+                                            </script>
+                                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_VP7Rhp27A3ATHx6Bj4a11ce0X7va1OM&callback=initMap"></script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" id="friends">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Amigos ( <span>
+										23</span> )</div>
+                                        <div class="panel-content">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <div class="thumbnail">
+                                                        <div class="fill"></div>
+                                                        <div class="thumbnail-caption">
+                                                            <a href="">Tony (<span> 3 </span>)</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="thumbnail">
+                                                        <div class="fill"></div>
+                                                        <div class="thumbnail-caption">
+                                                            <a href="">Frank (<span> 2 </span>)</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="thumbnail">
+                                                        <div class="fill"></div>
+                                                        <div class="thumbnail-caption">
+                                                            <a href="">Donka (<span> 6 </span>)</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="thumbnail">
+                                                        <div class="fill"></div>
+                                                        <div class="thumbnail-caption">
+                                                            <a href="">Donka (<span> 5 </span>)</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row" id="wall">
+                                <div class="col-md-4">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            CONOCE TU MASCOTA
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="post">
+                                                <div class="row post-header">
+                                                    <div class="col-md-3">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <a class="publisher">Ropita y accesorios para perros</a>
+                                                        <br>
+                                                        <a href="" class="date">28 Enero <i class="fa fa-globe" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="thumbnail post-content">
+                                                    <div class="thumbnail-caption">
+                                                        <p class="post-text">
+                                                            Listo para empezar un nuevo día, Feliz lunes para todos
+                                                        </p>
+                                                    </div>
+                                                    <div class="fill" id="post-fill-1"></div>
+                                                </div>
+                                                <div class="post-footer">
+                                                    <i class="glyphicon glyphicon-comment" aria-hidden="true"></i>
+                                                    <textarea rows="1" cols="20" name="comment" form="usrform" placeholder="Escribe un comentario..."></textarea>
+                                                    &nbsp;
+                                                    <a class="fa fa-paw" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a class="fa fa-share" aria-hidden="true"></a>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="post">
+                                                <div class="row post-header">
+                                                    <div class="col-md-3">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <a class="publisher">Cuervo Bahamondes</a>
+                                                        <br>
+                                                        <a class="date">28 Enero <i class="fa fa-globe" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="thumbnail post-content">
+                                                    <div class="thumbnail-caption">
+                                                        <p class="post-text">
+                                                            Lo más lindo
+                                                        </p>
+                                                    </div>
+                                                    <div class="fill" id="post-fill-2"></div>
+                                                </div>
+                                                <div class="post-footer">
+                                                    <i class="glyphicon glyphicon-comment" aria-hidden="true"></i>
+                                                    <textarea rows="1" cols="20" name="comment" form="usrform" placeholder="Escribe un comentario..."></textarea>
+                                                    &nbsp;
+                                                    <a class="fa fa-paw" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a class="fa fa-share" aria-hidden="true"></a>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="post">
+                                                <div class="row post-header">
+                                                    <div class="col-md-3">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <a class="publisher">Bella Luna Ramon</a>
+                                                        <br>
+                                                        <a class="date">28 Enero <i class="fa fa-globe" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="thumbnail post-content">
+                                                    <div class="thumbnail-caption">
+                                                        <p class="post-text">
+                                                            ¡Feliz cumpleaños a mi!
+                                                        </p>
+                                                    </div>
+                                                    <div class="fill" id="post-fill-3"></div>
+                                                </div>
+                                                <div class="post-footer">
+                                                    <i class="glyphicon glyphicon-comment" aria-hidden="true"></i>
+                                                    <textarea rows="1" cols="20" name="comment" form="usrform" placeholder="Escribe un comentario..."></textarea>
+                                                    &nbsp;
+                                                    <a class="fa fa-paw" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a class="fa fa-share" aria-hidden="true"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            ACTIVIDAD RECIENTE
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="post">
+                                                <div class="row post-header">
+                                                    <div class="col-md-3">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <a class="publisher">Ropita y accesorios para perros</a>
+                                                        <br>
+                                                        <a class="date">Hace 1 minuto <i class="fa fa-globe" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="thumbnail post-content">
+                                                    <div class="thumbnail-caption">
+                                                        <p class="post-text">
+                                                            A tu lado la vida es mejor
+                                                        </p>
+                                                    </div>
+                                                    <div class="fill" id="post-fill-4"></div>
+                                                </div>
+                                                <div class="post-footer">
+                                                    <i class="glyphicon glyphicon-comment" aria-hidden="true"></i>
+                                                    <textarea rows="1" cols="20" name="comment" form="usrform" placeholder="Escribe un comentario..."></textarea>
+                                                    &nbsp;
+                                                    <a class="fa fa-paw" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a class="fa fa-share" aria-hidden="true"></a>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="post">
+                                                <div class="row post-header">
+                                                    <div class="col-md-3">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <a class="publisher">Cuervo Bahamondes</a>
+                                                        <br>
+                                                        <a class="date">Hace 5 minuto <i class="fa fa-globe" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="thumbnail post-content">
+                                                    <div class="thumbnail-caption">
+                                                        <p class="post-text">
+                                                            Así de chevere es la vida
+                                                        </p>
+                                                    </div>
+                                                    <div class="fill" id="post-fill-5"></div>
+                                                </div>
+                                                <div class="post-footer">
+                                                    <i class="glyphicon glyphicon-comment" aria-hidden="true"></i>
+                                                    <textarea rows="1" cols="20" name="comment" form="usrform" placeholder="Escribe un comentario..."></textarea>
+                                                    &nbsp;
+                                                    <a class="fa fa-paw" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a class="fa fa-share" aria-hidden="true"></a>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="post">
+                                                <div class="row post-header">
+                                                    <div class="col-md-3">
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <a class="publisher">Bella Luna Ramon</a>
+                                                        <br>
+                                                        <a class="date">Hace 10 minuto <i class="fa fa-globe" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="thumbnail post-content">
+                                                    <div class="thumbnail-caption">
+                                                        <p class="post-text">
+                                                        </p>
+                                                    </div>
+                                                    <div class="fill" id="post-fill-6"></div>
+                                                </div>
+                                                <div class="post-footer">
+                                                    <i class="glyphicon glyphicon-comment" aria-hidden="true"></i>
+                                                    <textarea rows="1" cols="20" name="comment" form="usrform" placeholder="Escribe un comentario..."></textarea>
+                                                    &nbsp;
+                                                    <a class="fa fa-paw" aria-hidden="true"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a class="fa fa-share" aria-hidden="true"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 sidebar-offcanvas">
+                                    <p class="pull-left visible-xs">
+                                        <button type="button" class="btn btn-primary btn-xs glyphicon glyphicon-hand-left " data-toggle="offcanvas" id="slide">
+                                        </button>
+                                    </p>
+                                    <br>
+                                    <br>
+                                    <div class="panel panel-default" id="products">
+                                        <div class="panel-heading">
+                                            PARA TU MASCOTA LO MEJOR
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="thumbnail">
+                                                <div class="fill"></div>
+                                                <div class="thumbnail-caption"></div>
+                                            </div>
+                                            <div class="thumbnail">
+                                                <div class="fill"></div>
+                                                <div class="thumbnail-caption"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            HABLA CON TUS AMIGOS
+                                        </div>
+                                        <div class="panel-body">
+                                            <ul class="nav nav-tabs text-center" role="tablist">
+                                                <li class="active">
+                                                    <a href="#contacts" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#video-calls" data-toggle="tab"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#calls" data-toggle="tab"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="" data-toggle="tab"><i class="fa fa-caret-square-o-down" aria-hidden="true"></i></a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div role="tabpanel" class="tab-pane active" id="contacts">
+                                                    <ul>
+                                                        <li class="active">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                            <a href="">
+															Jaime Prada
+														</a>
+                                                        </li>
+                                                        <li class="active">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                            <a href="">
+															Camilo Avendaño
+														</a>
+                                                        </li>
+                                                        <li class="disconnected">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                            <a href="">
+															Andrea Contreras
+														</a>
+                                                        </li>
+                                                        <li class="disconnected">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                            <a href="">
+															Sonia Silva
+														</a>
+                                                        </li>
+                                                        <li class="disconnected">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                            <a href="">
+															Andres Lopez
+														</a>
+                                                        </li>
+                                                        <li class="occupied">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                            <a href="">
+															Cristian Alvarez
+														</a>
+                                                        </li>
+                                                        <li class="occupied">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                            <a href="">
+															Omar Gutierrez
+														</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            IMÁGENES
+                                        </div>
+                                        <div class="panel-body gallery">
+                                            <div class="row">
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                                <div class="col-md-3 picture" id="picture-1"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab-interest">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <br>
+                                    <h4>Popular</h4>
+                                    <div id="slider-carousel-1" class="row carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <<a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <<a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="control-box">
+                                            <a data-slide="prev" href="#slider-carousel-1" class="carousel-control left">‹</a>
+                                            <a data-slide="next" href="#slider-carousel-1" class="carousel-control right">›</a>
+                                        </div>
+                                    </div>
+                                    <h4>Ultimos vistos</h4>
+                                    <div id="slider-carousel-1" class="row carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <<a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <<a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="control-box">
+                                            <a data-slide="prev" href="#slider-carousel-1" class="carousel-control left">‹</a>
+                                            <a data-slide="next" href="#slider-carousel-1" class="carousel-control right">›</a>
+                                        </div>
+                                    </div>
+                                    <h4>Eventos</h4>
+                                    <div id="slider-carousel-1" class="row carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <<a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <<a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="control-box">
+                                            <a data-slide="prev" href="#slider-carousel-1" class="carousel-control left">‹</a>
+                                            <a data-slide="next" href="#slider-carousel-1" class="carousel-control right">›</a>
+                                        </div>
+                                    </div>
+                                    <h4>Los mejores articulos para tu mascota</h4>
+                                    <div id="slider-carousel-1" class="row carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <<a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <<a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item">
+                                                <ul class="thumbnails">
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4">
+                                                        <div class="thumbnail">
+                                                            <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                                            <div class="thumbnail-caption">
+                                                                <a href="">Descripción</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="control-box">
+                                            <a data-slide="prev" href="#slider-carousel-1" class="carousel-control left">‹</a>
+                                            <a data-slide="next" href="#slider-carousel-1" class="carousel-control right">›</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="panel panel-default" id="products">
+                                        <div class="panel-heading">
+                                            PARA TU MASCOTA LO MEJOR
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="thumbnail">
+                                                <div class="fill"></div>
+                                                <div class="thumbnail-caption"></div>
+                                            </div>
+                                            <div class="thumbnail">
+                                                <div class="fill"></div>
+                                                <div class="thumbnail-caption"></div>
+                                            </div>
+                                            <div class="thumbnail">
+                                                <div class="fill"></div>
+                                                <div class="thumbnail-caption"></div>
+                                            </div>
+                                            <div class="thumbnail">
+                                                <div class="fill"></div>
+                                                <div class="thumbnail-caption"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab-images">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab-events">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="thumbnail">
+                                        <div class="picture" id="picture-1"></div>
+                                        <div class="thumbnail-caption">
+                                            <a href="" class="event-name">Nombre del evento</a>
+                                            <br>
+                                            <a href="" class="event-date" type="date">18 de Diciembre 2017</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab-clinical-history">
+                        </div>
+                    </div>
+                </body>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

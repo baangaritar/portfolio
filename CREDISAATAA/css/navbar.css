@@ -1,0 +1,52 @@
+.navbar-light{
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-brand{
+	height: 4rem;
+	width: 15rem;
+	background-image: url(../images/logo_negro.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.dropdown-menu{
+	right: 0;
+	left: auto;
+	float: right;
+	min-width: 30rem;
+}
+
+#search-dp{
+	background-color: transparent;
+	border-style: none;
+}
+
+
+
+.dropdown-toggle::after{
+	display: none;
+}
+
+
+.btn-primary{
+	height: 2.5rem;
+	margin-top: 0.5rem;
+	float: right;
+	position: absolute;
+	top: 0.4rem;
+	right: 0;
+}
+
+.navbar-light .navbar-toggler{
+    background: none;
+    border: none;
+    color: black;
+    text-shadow: none;
+    width: auto;
+    left: 1rem;
+    float: right;
+    border-radius: 0%;
+
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <meta name="name" content="">
+    <meta name=description content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Categorias - CREDISAATAA</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/product.css">
+    <script src="js/tether.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class='nav-link' href="index.php">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class='nav-link' href='index.php#acercade'>Quiénes somos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class='nav-link' href='index.php#produflash'>Produflash</a>
+                </li>
+                <li class="nav-item">
+                    <a class='nav-link' href='index.php#crediflash'>Crediflash</a>
+                </li>
+                <li class="nav-item">
+                    <a class='nav-link' href='index.php#formulario_asesoria'>Asesoría Financiera y Pensional</a>
+                </li>
+                <li class="nav-item">
+                    <a class='nav-link' href='https://viajaengrande.com/microsite/saataa' target="_blank">Viajes</a>
+                </li>
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            Buscar
+                        </a>
+                    <ul id="search-dp" class="dropdown-menu">
+                        <li>
+                            <form action="search" class="search-form">
+                                <div class="form-group has-feedback">
+                                    <input type="text" class="form-control" name="search" id="search" placeholder="¿Qué estás buscando?">
+                                    <i class="btn btn-primary fa fa-search" aria-hidden="true"></i>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class='text-center relative white' style="padding-top:140px">
+            <div class='row top-xs'>
+                <div class='col-md-1 col-lg-1 col-sm-12 col-xs-12 white'>
+                </div>
+                <div class='col-md-6 col-lg-6 col-sm-6 col-xs-12 white' style='height:800px;'>
+                    <div class='col-md-12 col-lg-12 col-sm-12 col-xs-12 ' style='float:right;height:600px; '>
+                        <div id="visor" class="tile" data-scale="2.4" data-image="images/products/Image1.jpg"><div class="photo" style="background-image: url(&quot;images/products/Imagen1.jpg&quot;);"></div></div>
+                        <script>
+        $('.tile')
+        // tile mouse actions
+        .on('mouseover', function(){
+          $(this).children('.photo').css({'transform': 'scale('+ $(this).attr('data-scale') +')'});
+        })
+        .on('mouseout', function(){
+          $(this).children('.photo').css({'transform': 'scale(1)'});
+        })
+        .on('mousemove', function(e){
+          $(this).children('.photo').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +'%'});
+        })
+        // tiles set up
+        .each(function(){
+          $(this)
+            // add a photo container
+            .append('<div class="photo"></div>')
+            // some text just to show zoom level on current item in this example
+            //.append('<div class="txt"><div class="x">'+ $(this).attr('data-scale') +'x</div>ZOOM ON<br>HOVER</div>')
+            // set up a background image for each tile based on data-image attribute
+            .children('.photo').css({'background-image': 'url("'+ $(this).attr('data-image') +'")'});
+        })
+        
+        $('.miniatura_img').each(function(){
+             $(this).on('click', function(e) {
+                e.preventDefault();
+                $('.photo').css({'background-image': 'url('+ $(this).attr('src') +')'});    
+            })
+        });
+
+    </script>
+                    </div>
+                    <div style="text-align:left;" class="col-md-4 col-lg-12 col-sm-6 col-xs-12 white description-wrapper">
+                        <div class="miniatura">
+                            <img class="miniatura_img" src="images/products/Image1.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-4 col-lg-4 col-sm-6 col-xs-12 white' style='height:800px;'>
+                    <product-name name="mainVM.productData.name" class="product-name">
+                        <h1 style="text-align:left" class="product-name" data-hook="product-title">PORTATIL HP 14AC132LA CORE I7</h1>
+                    </product-name>
+                    <div style="text-align:left" class="sku">Antes <span id="descuento_div_1" style='text-decoration:line-through'>$2.496.988</span></div>
+                    <div class="prices" data-hook="product-price-wrapper">
+                        <span id="precio_div_1" ata-hook="product-price">$2.247.289</span>
+                    </div>
+                    <div style="text-align:left" class="quantity">Cantidad</div>
+                    <div style="text-align:left">
+                        <input type="button" value="-" onClick="restar_numero(1,2247289.2, 2496988)" class="boton_cantidad">
+                        <input type="text" id="cantidad_1" name="cantidad_1" value="1" style="width:30px;height:30px;font-weight:bold;text-align:center" readonly="readonly">
+                        <input type="button" value="+" onClick="sumar_numero(1,2247289.2, 2496988)" class="boton_cantidad">
+                    </div>
+                    <div style="text-align:center">
+                        <button type="submit" class="button-primary is-button-wide button-add-to-cart" data-hook="add-to-cart" onClick="$('#a_bajar').click();"><span data-hook="user-free-text" class="user-free-text">COMPRAR CON PRODUFLASH</span>
+                        </button><a name="a_bajar" id="a_bajar" href='#formulario'></a>
+                    </div>
+                    <div class="product-info-section" data-hook="product-info-section">
+                        <ul>
+                            <li class="info-section">
+                                <div style="text-align:left;">Valor Envío $ 18.000</div>
+                            </li>
+                            <li class="info-section">
+                                <h3 style="text-align:left" class="title">
+								<a data-hook="product-page-faq-toggler">
+									INFO DEL PRODUCTO
+								</a>
+							</h3>
+                                <p style="text-align:left" class="content" ">
+								<div style="text-align:left; " >
+									<ul><li>Unidad de DVD</li><li>Windows 8 Single</li><li>1 Puerto HDMI</li><li>3 Puertos USB</li><li>Lan inalámbrica y Bluetooth</li><li>DTS Studio Sound</li><li>Lector de Tarjetas</li><li>Batería 2 Celdas</li></ul>
+								</div>
+							</p>
+						</li>
+					</ul>
+				</div>
+			
+			</div>
+			<div class='col-md-1 col-lg-1 col-sm-0 col-xs-1 white' style='height:50px;' >
+			</div>
+	
+		</div>
+	
+	</div> 
+    </section>
+
+</body>
+</html>
