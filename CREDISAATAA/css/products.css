@@ -35,8 +35,8 @@
     -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
     transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
 
-
 }
+
 
 #products .box .white-text {
     position: absolute;
@@ -45,6 +45,9 @@
     right: 0;
     text-align: center;
     color: white;
+       word-wrap: break-word;
+   text-align: center;
+    width: 100%;
 }
 
 #products .screen:hover .box {
