@@ -10,7 +10,7 @@ function entero(e, id, precio) {
         var precio_total_presentacion = precio * cantidad_div;
         document.getElementById(precio_div_id).innerHTML = precio_total_presentacion;
 
-        return true;    
+        return true;
     }
     return false
 }
@@ -75,3 +75,56 @@ function addPuntos(nStr) {
     }
 }
 
+
+
+
+$(document).ready(function() {
+
+
+    $('.tile')
+        // tile mouse actions
+        .on('mouseover', function() {
+            $(this).children('.photo').css({ 'transform': 'scale(' + $(this).attr('data-scale') + ')' });
+        })
+        .on('mouseout', function() {
+            $(this).children('.photo').css({ 'transform': 'scale(1)' });
+        })
+        .on('mousemove', function(e) {
+            $(this).children('.photo').css({ 'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 + '%' });
+        })
+        // tiles set up
+        .each(function() {
+            $(this)
+                // add a photo container
+                .append('<div class="photo"></div>')
+
+                // set up a background image for each tile based on data-image attribute
+                .children('.photo').css({ 'background-image': 'url(' + $(this).attr('data-image') + ')' });
+        })
+
+
+    $('.miniatura_img').each(function() {
+        $(this).on('click', function(e) {
+            e.preventDefault();
+            $('.photo').css({ 'background-image': 'url(' + $(this).attr('src') + ')' });
+        })
+    });
+
+    $(".button-add-to-cart").on("click", function() {
+        $('.nav-tabs a[href="#produflash"]').tab('show');
+    });
+
+    window.onscroll = function() { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("to_up").style.display = "block";
+        } else {
+            document.getElementById("to_up").style.display = "none";
+        }
+    }
+    $('#to_up').click(function() {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
