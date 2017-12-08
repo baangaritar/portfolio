@@ -1,0 +1,86 @@
+header li{
+    width: 3rem;
+}
+
+header .social-icons{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+}
+
+header .social-icons .fa{
+    font-size: 2.3rem;
+}
+
+header .sponsor-logo{
+    display: block;
+    margin: auto;
+}
+
+header .logo-caption{
+    color: #919191;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.search{
+    border: 1px solid #4E6CB1;
+    border-radius: 0.5rem;
+    width: 90%;
+    display: block;
+    margin: auto;
+    position: absolute;
+}
+
+.btn-search{
+    position: absolute;
+    color: black;
+    right: 10%;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+    color: #4E6CB1;
+}
+
+.btn-search:hover{
+    background: transparent;
+    color: #4E6CB0;
+}
+
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+.fa-facebook-square{
+    color: #3b5998;
+}
+
+.fa-instagram{
+    color: #cd486b;
+}
+
+.fa-youtube-play{
+    color: #ff0000;
+}
+
+.navbar{
+    background-color: #34426E !important;
+}
+
+.navbar a{
+
+    color: white !important;
+}
