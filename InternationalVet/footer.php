@@ -1,6 +1,8 @@
 		<!-- footer -->
 		<footer>
-			
+			<div class="row container-fluid">
+				<p class="copyright"> &copy; Brain Group, Todos los derechos reservados</p>
+			</div>
 		</footer>
 		<!-- /footer -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -13,7 +13,7 @@
 	<body>
 		<!-- header -->
 		<header id="header" class="">
-			<div class="row">
+			<div class="row container-fluid">
 				<div class="col-sm-5">
 					<div class="row">
 						<div class="col-sm-5 offset-sm-1">

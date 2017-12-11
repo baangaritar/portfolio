@@ -1,4 +1,29 @@
 .carousel .carousel-inner .carousel-item img{
-	min-width: 100%;
-	min-height: 100%;
+	max-width: 100%;
+}
+
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .carousel-item{
+	height: 25rem;
+    align-items: center;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+	color: #ECECEC !important;
+	font-size: 3rem;
+}
+
+.carousel-caption{
+	background: #34426E !important;
+	opacity: 0.4;
+	padding: 0;
+	right: 10rem;
+	width: auto !important;
+	left: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+
 }
