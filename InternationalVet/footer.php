@@ -1,7 +1,7 @@
 		<!-- footer -->
-		<footer>
+		<footer class="footer">
 			<div class="row container-fluid">
-				<p class="copyright"> &copy; Brain Group, Todos los derechos reservados</p>
+				<p class="copyright text-white"> &copy; Brain Group, Todos los derechos reservados</p>
 			</div>
 		</footer>
 		<!-- /footer -->
