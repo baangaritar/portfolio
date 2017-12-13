@@ -137,3 +137,121 @@ body{
 .styled-select select option{
 	color: black;
 }
+
+.product-description {
+    padding-top: 7rem;
+}
+
+.product-description .row {
+    margin: 0 !important;
+}
+
+.product-description .row #visor {
+    float: none;
+    height:64%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+
+.tile {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    transition: transform .5s ease-out;
+}
+
+.txt {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    cursor: default;
+}
+
+.x {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.miniatura {
+    margin-top: 1rem;
+    height: 5rem;
+    border: 1px solid #E8E8E8;
+    width: 70%;
+    display: block;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+    align-items: center;
+}
+
+.miniatura_img {
+    max-height: 5rem;
+    max-width: 5rem;
+    display: inline;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+
+.product-name {
+    margin-top: 2rem;
+    line-height: normal;
+    color: #333333;
+    font-size: 2.7rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.sku{
+    color: #656565;
+    text-align: left;
+    font-size: 1.2rem;
+    opacity: .75;
+}
+.prices {
+    text-align: left;
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 2.3rem;
+}
+.quantity {
+    color: #656565;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.title a {
+     font-size: 18px !important;
+    padding-right: 18px;
+    position: relative;
+    display: block;
+    color: inherit;
+    text-decoration: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}

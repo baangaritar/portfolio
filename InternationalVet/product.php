@@ -1,11 +1,12 @@
-<section class="product-description">
-        <div class="row">
+<?php include 'header.php'; ?>
+<section class="product-description box-white">
+        <div class="row container-fluid">
             <div class="col-lg-7">
-                <div id="visor" class="tile" data-scale="2.4" data-image="images/products/image-3.jpg"></div>
+                <div id="visor" class="tile" data-scale="2.4" data-image="images/image-3.png"></div>
                 <div class="miniatura">
-                    <img class="miniatura_img" src="images/products/image-1.jpg">
-                    <img class="miniatura_img" src="images/products/image-2.jpg">
-                    <img class="miniatura_img" src="images/products/image-3.jpg">
+                    <img class="miniatura_img" src="images/image-1.jpg">
+                    <img class="miniatura_img" src="images/image-2.png">
+                    <img class="miniatura_img" src="images/image-3.png">
                 </div>
             </div>
             <div class="col-lg-5">
@@ -32,3 +33,4 @@
             </div>
         </div>
     </section>
+<?php include 'footer.php'; ?>
