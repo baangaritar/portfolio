@@ -1,5 +1,38 @@
-.section-2{
-	background: #34426E;
+html,
+body{
+	height: 100%;
+	background-color: #34426E;
+}
+
+.distance-box{
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.distance{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.box-white{
+	background-color: white;
+}
+
+.on-screen{
+	min-height: 59%;
+}
+
+.primary-color{
+	color: #34426E !important;
+}
+
+
+
+
+.image-responsive{
+	max-width: 100%;
+	height: auto;
+	display: block;
 }
 
 .services .card-block{
@@ -36,4 +69,71 @@
 
 .text-white{
 	color: white !important;
+}
+
+.vertical-centered{
+	padding:  8% 1.5rem;
+}
+
+.text-center-justified{
+	text-align: justify;
+	text-align-last: center;
+}
+
+.box-radius-1{
+	border-radius: 1rem; 
+}
+
+.product{
+	padding: 1rem;
+	height: 15rem;
+	 display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-image img {
+	max-height: 10rem !important;
+
+}
+
+.product-name{
+	position: absolute;
+	bottom: 0rem;
+	right: 0;
+	left: 0;
+}
+
+.center-block{
+	display: block !important;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 97% 40%;
+   height: 3rem;
+   overflow: hidden;
+   width: auto;
+   max-width: 30rem;
+   border-bottom: 1px solid white;
+   border-bottom-right-radius: 1rem;
+   border-bottom-left-radius: 0.2rem;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 1.7rem;
+   height: 3rem;
+   padding: 0; 
+   width: 105%;
+   color: white;
+}
+
+
+.styled-select select option{
+	color: black;
 }

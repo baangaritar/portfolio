@@ -2,30 +2,16 @@
 	max-width: 100%;
 }
 
+.carousel-control-icon{
+	color: #D7D7D7;
+	opacity: 0.3;
+	font-size: 7vh;
+}
+
 .carousel,
 .carousel .carousel-inner,
 .carousel .carousel-inner .carousel-item{
-	height: 33%;
     align-items: center;
 
 }
 
-.carousel-control-prev,
-.carousel-control-next{
-	color: #ECECEC !important;
-	font-size: 3rem;
-}
-
-.carousel-caption{
-	background: #34426E !important;
-	opacity: 0.4;
-	padding: 0;
-	right: 10rem;
-	width: auto !important;
-	left: auto;
-	padding-left: 1rem;
-	padding-right: 1rem;
-	border-top-left-radius: 1rem;
-	border-top-right-radius: 1rem;
-	bottom: 0;
-}

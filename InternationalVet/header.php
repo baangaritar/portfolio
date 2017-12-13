@@ -15,12 +15,12 @@
 	</head>
 	<body>
 		<!-- header -->
-		<header id="header" class="">
+		<header id="header" class="box-white">
 			<div class="row container-fluid">
 				<div class="col-sm-5">
 					<div class="row">
 						<div class="col-sm-5 offset-sm-1 logo">
-							<a href=""><img src="images/logo.png" alt="logo-international-vet.png" height="160" ></a>
+							<a href="index.php"><img src="images/logo.png" alt="logo-international-vet.png" height="160" ></a>
 						</div>
 					</div>
 				</div>
@@ -28,7 +28,7 @@
 					<div class="row ">
 						<div class="col-sm-5">
 							<a href="" class="hidden-md-down">
-								<img src="images/logo-skyla.png" alt="logo-distributor-vet.png" height="80" class="sponsor-logo hidden-sm-down" >
+								<img src="images/logo-skyla.png" alt="logo-distributor-vet.png" class="sponsor-logo hidden-sm-down" >
 								<p class="logo-caption">Distribuidor exclusivo para Colombia</p>
 							</a>
 						</div>
@@ -67,10 +67,10 @@
 			<div class="collapse navbar-collapse">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">QUIENES SOMOS <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="international_vet.php">QUIENES SOMOS <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">EQUIPOS</a>
+						<a class="nav-link" href="equipment.php">EQUIPOS</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">EVENTOS Y CAPACITACIONES</a>
