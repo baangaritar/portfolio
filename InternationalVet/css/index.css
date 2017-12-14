@@ -9,6 +9,10 @@ body{
 	padding-bottom: 1.5rem;
 }
 
+.secondary{
+    background-color: #BEBDBD;
+}
+
 .distance{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -138,30 +142,15 @@ body{
 	color: black;
 }
 
-.product-description {
-    padding-top: 7rem;
-}
-
-.product-description .row {
-    margin: 0 !important;
-}
-
-.product-description .row #visor {
-    float: none;
-    height:64%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 5px 5px 10px #888888;
-}
 
 
 .tile {
     position: relative;
-    float: left;
-    width: 100%;
-    height: 100%;
+    width: 27rem;
+    height: 18rem;
     overflow: hidden;
+    margin-top: 1rem;
+    box-shadow: -1px -1px 3px 0;
 }
 
 .photo {
@@ -201,8 +190,7 @@ body{
     width: 70%;
     display: block;
     border-radius: 1rem;
-    margin-left: auto;
-    margin-right: auto;
+
     overflow-y: hidden;
     align-items: center;
 }
@@ -217,41 +205,3 @@ body{
 }
 
 
-.product-name {
-    margin-top: 2rem;
-    line-height: normal;
-    color: #333333;
-    font-size: 2.7rem;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-}
-.sku{
-    color: #656565;
-    text-align: left;
-    font-size: 1.2rem;
-    opacity: .75;
-}
-.prices {
-    text-align: left;
-    color: #333333;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 2.3rem;
-}
-.quantity {
-    color: #656565;
-    font-size: 1rem;
-    text-align: left;
-}
-
-.title a {
-     font-size: 18px !important;
-    padding-right: 18px;
-    position: relative;
-    display: block;
-    color: inherit;
-    text-decoration: inherit;
-    font-size: inherit;
-    cursor: pointer;
-}

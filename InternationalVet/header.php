@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="css/carousel.css">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/navtabs.css">
 		<link rel="icon" href="images/favicon.ico">
 	</head>
 	<body>
